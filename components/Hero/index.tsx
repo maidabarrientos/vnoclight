@@ -21,10 +21,7 @@ const Hero = () => {
                 🔥 The Blockchain Venture Platform for Digital Assets
               </h4>
               <h1 className="bg-gradient-to-r from-txtgrad1 to-black bg-clip-text text-transparent text-5xl xl:text-hero font-bold mb-5 pr-16">
-              Next Gen
-              Digital Asset
-             
-                Platform
+              Next Gen Digital Asset Platform
               </h1>
               <p>
               Welcome to VNOC – the cutting-edge platform and network that harnesses the power of blockchain technology, premium URL's, innovative business models (eCorp), and connected networks (Contrib) to empower you to build, manage, and monetize your digital assets like never before.
