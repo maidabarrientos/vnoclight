@@ -18,7 +18,7 @@ export default function DocsPage() {
 
             <div className="w-full px-4 lg:w-3/4">
               <div className="blog-details blog-details-docs rounded-sm bg-white py-11 px-8 shadow-three dark:bg-gray-dark sm:p-[55px] lg:mb-5 lg:px-8 xl:p-[55px]">
-                <h1>Welcome to Startup Documentation1</h1>
+                <h1>Welcome to Startup Documentation</h1>
 
                 <p className="text-base text-body-color dark:text-body-color-dark">
                   This document serves as a simple template to showcase a sample

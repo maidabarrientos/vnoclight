@@ -33,177 +33,23 @@ const Footer = () => {
                   <Image
                     width={110}
                     height={80}
-                    src="/images/logo/logo-light.svg"
+                    src="/images/logo/logo-light.png"
                     alt="Logo"
                     className="dark:hidden"
                   />
                   <Image
                     width={110}
                     height={80}
-                    src="/images/logo/logo-dark.svg"
+                    src="/images/logo/logo-dark.png"
                     alt="Logo"
                     className="hidden dark:block"
                   />
                 </a>
 
                 <p className="mt-5 mb-10">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                </p>
-
-                <p className="uppercase tracking-[5px] text-sectiontitle mb-1.5">
-                  contact
-                </p>
-                <a
-                  href="#"
-                  className="text-black dark:text-white font-medium text-itemtitle"
-                >
-                  hello@solid.com
-                </a>
-              </motion.div>
-
-              <div className="w-full lg:w-2/3 xl:w-7/12 flex flex-col md:flex-row md:justify-between gap-8 md:gap-0">
-                <motion.div
-                  variants={{
-                    hidden: {
-                      opacity: 0,
-                      y: -20,
-                    },
-
-                    visible: {
-                      opacity: 1,
-                      y: 0,
-                    },
-                  }}
-                  initial="hidden"
-                  whileInView="visible"
-                  transition={{ duration: 1, delay: 0.1 }}
-                  viewport={{ once: true }}
-                  className="animate_top"
-                >
-                  <h4 className="font-medium text-black dark:text-white text-itemtitle2 mb-9">
-                    Quick Links
-                  </h4>
-
-                  <ul>
-                    <li>
-                      <a
-                        href="#"
-                        className="inline-block hover:text-primary mb-3"
-                      >
-                        Home
-                      </a>
-                    </li>
-                    <li>
-                      <a
-                        href="#"
-                        className="inline-block hover:text-primary mb-3"
-                      >
-                        Product
-                      </a>
-                    </li>
-                    <li>
-                      <a
-                        href="#"
-                        className="inline-block hover:text-primary mb-3"
-                      >
-                        Careers
-                      </a>
-                    </li>
-                    <li>
-                      <a
-                        href="#"
-                        className="inline-block hover:text-primary mb-3"
-                      >
-                        Pricing
-                      </a>
-                    </li>
-                  </ul>
-                </motion.div>
-
-                <motion.div
-                  variants={{
-                    hidden: {
-                      opacity: 0,
-                      y: -20,
-                    },
-
-                    visible: {
-                      opacity: 1,
-                      y: 0,
-                    },
-                  }}
-                  initial="hidden"
-                  whileInView="visible"
-                  transition={{ duration: 1, delay: 0.1 }}
-                  viewport={{ once: true }}
-                  className="animate_top"
-                >
-                  <h4 className="font-medium text-black dark:text-white text-itemtitle2 mb-9">
-                    Support
-                  </h4>
-
-                  <ul>
-                    <li>
-                      <a
-                        href="#"
-                        className="inline-block hover:text-primary mb-3"
-                      >
-                        Company
-                      </a>
-                    </li>
-                    <li>
-                      <a
-                        href="#"
-                        className="inline-block hover:text-primary mb-3"
-                      >
-                        Press media
-                      </a>
-                    </li>
-                    <li>
-                      <a
-                        href="#"
-                        className="inline-block hover:text-primary mb-3"
-                      >
-                        Our Blog
-                      </a>
-                    </li>
-                    <li>
-                      <a
-                        href="#"
-                        className="inline-block hover:text-primary mb-3"
-                      >
-                        Contact Us
-                      </a>
-                    </li>
-                  </ul>
-                </motion.div>
-
-                <motion.div
-                  variants={{
-                    hidden: {
-                      opacity: 0,
-                      y: -20,
-                    },
-
-                    visible: {
-                      opacity: 1,
-                      y: 0,
-                    },
-                  }}
-                  initial="hidden"
-                  whileInView="visible"
-                  transition={{ duration: 1, delay: 0.1 }}
-                  viewport={{ once: true }}
-                  className="animate_top"
-                >
-                  <h4 className="font-medium text-black dark:text-white text-itemtitle2 mb-9">
-                    Newsletter
-                  </h4>
-                  <p className="mb-4 w-[90%]">
-                    Subscribe to receive future updates
-                  </p>
-
-                  <form action="#">
+                At VNOC, we are excited to present you with a transformational solution that opens the door to endless possibilities. With a seamless integration of blockchain tools, advanced data management capabilities, and a thriving Contrib network, we're here to help you create, grow, and profit from your digital ventures.
+                </p>         
+                <form action="#">
                     <div className="relative">
                       <input
                         type="text"
@@ -235,6 +81,196 @@ const Footer = () => {
                       </button>
                     </div>
                   </form>
+              </motion.div>
+
+              <div className="w-full lg:w-2/3 xl:w-7/12 flex flex-col md:flex-row md:justify-between gap-8 md:gap-0">
+                <motion.div
+                  variants={{
+                    hidden: {
+                      opacity: 0,
+                      y: -20,
+                    },
+
+                    visible: {
+                      opacity: 1,
+                      y: 0,
+                    },
+                  }}
+                  initial="hidden"
+                  whileInView="visible"
+                  transition={{ duration: 1, delay: 0.1 }}
+                  viewport={{ once: true }}
+                  className="animate_top"
+                >
+                  <h4 className="font-medium text-black dark:text-white text-itemtitle2 mb-9">
+                    About
+                  </h4>
+
+                  <ul>
+                    <li>
+                      <a
+                        href="#"
+                        className="inline-block hover:text-primary mb-3"
+                      >
+                        Pricing
+                      </a>
+                    </li>
+                    <li>
+                      <a
+                        href="#"
+                        className="inline-block hover:text-primary mb-3"
+                      >
+                        Features
+                      </a>
+                    </li>
+                    <li>
+                      <a
+                        href="#"
+                        className="inline-block hover:text-primary mb-3"
+                      >
+                        Documentations
+                      </a>
+                    </li>
+                    <li>
+                      <a
+                        href="#"
+                        className="inline-block hover:text-primary mb-3"
+                      >
+                        Blog
+                      </a>
+                    </li>
+                    <li>
+                      <a
+                        href="#"
+                        className="inline-block hover:text-primary mb-3"
+                      >
+                        Press Room
+                      </a>
+                    </li>
+                  </ul>
+                </motion.div>
+
+                <motion.div
+                  variants={{
+                    hidden: {
+                      opacity: 0,
+                      y: -20,
+                    },
+
+                    visible: {
+                      opacity: 1,
+                      y: 0,
+                    },
+                  }}
+                  initial="hidden"
+                  whileInView="visible"
+                  transition={{ duration: 1, delay: 0.1 }}
+                  viewport={{ once: true }}
+                  className="animate_top"
+                >
+                  <h4 className="font-medium text-black dark:text-white text-itemtitle2 mb-9">
+                    Community
+                  </h4>
+
+                  <ul>
+                    <li>
+                      <a
+                        href="#"
+                        className="inline-block hover:text-primary mb-3"
+                      >
+                        Contact Us
+                      </a>
+                    </li>
+                    <li>
+                      <a
+                        href="#"
+                        className="inline-block hover:text-primary mb-3"
+                      >
+                        Webinar
+                      </a>
+                    </li>
+                    <li>
+                      <a
+                        href="#"
+                        className="inline-block hover:text-primary mb-3"
+                      >
+                        Contrib Network
+                      </a>
+                    </li>
+                    <li>
+                      <a
+                        href="#"
+                        className="inline-block hover:text-primary mb-3"
+                      >
+                        Social Media
+                      </a>
+                    </li>
+                  </ul>
+                </motion.div>
+
+                <motion.div
+                  variants={{
+                    hidden: {
+                      opacity: 0,
+                      y: -20,
+                    },
+
+                    visible: {
+                      opacity: 1,
+                      y: 0,
+                    },
+                  }}
+                  initial="hidden"
+                  whileInView="visible"
+                  transition={{ duration: 1, delay: 0.1 }}
+                  viewport={{ once: true }}
+                  className="animate_top"
+                >
+                  <h4 className="font-medium text-black dark:text-white text-itemtitle2 mb-9">
+                    Use Cases
+                  </h4>
+                  <ul>
+                    <li>
+                      <a
+                        href="#"
+                        className="inline-block hover:text-primary mb-3"
+                      >
+                        For Digital Creatives
+                      </a>
+                    </li>
+                    <li>
+                      <a
+                        href="#"
+                        className="inline-block hover:text-primary mb-3"
+                      >
+                        For Domainers
+                      </a>
+                    </li>
+                    <li>
+                      <a
+                        href="#"
+                        className="inline-block hover:text-primary mb-3"
+                      >
+                        For Digital Entrepreneurs
+                      </a>
+                    </li>
+                    <li>
+                      <a
+                        href="#"
+                        className="inline-block hover:text-primary mb-3"
+                      >
+                        For Developers
+                      </a>
+                    </li>
+                    <li>
+                      <a
+                        href="#"
+                        className="inline-block hover:text-primary mb-3"
+                      >
+                        For TLD Owners
+                      </a>
+                    </li>
+                  </ul>                  
                 </motion.div>
               </div>
             </div>
@@ -261,12 +297,7 @@ const Footer = () => {
               viewport={{ once: true }}
               className="animate_top"
             >
-              <ul className="flex items-center gap-8">
-                <li>
-                  <a href="#" className="hover:text-primary">
-                    English
-                  </a>
-                </li>
+              <ul className="flex items-center gap-8">                
                 <li>
                   <a href="#" className="hover:text-primary">
                     Privacy Policy
@@ -298,7 +329,7 @@ const Footer = () => {
               viewport={{ once: true }}
               className="animate_top"
             >
-              <p>&copy; 2025 Solid. All rights reserved</p>
+              <p>&copy; 2023 Vnoc.com. All rights reserved</p>
             </motion.div>
 
             <motion.div

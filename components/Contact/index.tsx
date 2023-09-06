@@ -163,14 +163,14 @@ const Contact = () => {
                 <h4 className="font-medium text-black dark:text-white text-metatitle3 mb-4">
                   Our Loaction
                 </h4>
-                <p>290 Maryam Springs 260, Courbevoie, Paris, France</p>
+                <p>Indianapolis, IN 46220, United States</p>
               </div>
               <div className="mb-7 5">
                 <h4 className="font-medium text-black dark:text-white text-metatitle3 mb-4">
                   Email Address
                 </h4>
                 <p>
-                  <a href="#">yourmail@domainname.com</a>
+                  <a href="#">admin@vnoc.com</a>
                 </p>
               </div>
               <div>
@@ -178,7 +178,7 @@ const Contact = () => {
                   Phone Number
                 </h4>
                 <p>
-                  <a href="#">+009 42334 6343 843</a>
+                  <a href="#">+1 317-617-6232</a>
                 </p>
               </div>
             </motion.div>

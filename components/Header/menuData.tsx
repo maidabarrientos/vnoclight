@@ -12,68 +12,99 @@ const menuData: Menu[] = [
     title: "Features",
     newTab: false,
     path: "/#features"
-  },
+  },  
   {
     id: 2.1,
-    title: "Blog",
+    title: "Use Cases",
     newTab: false,
-    path: "/blog"
+    path: "/use_cases"
   },
   {
-    id: 2.3,
-    title: "Docs",
+    id: 2.2,
+    title: "Why VNOC",
     newTab: false,
-    path: "/docs"
+    path: "/why"
   },
   {
     id: 3,
-    title: "Pages",
+    title: "Solutions",
     newTab: false,
     submenu: [
       {
         id: 31,
-        title: "Blog Grid",
+        title: "Build",
         newTab: false,
-        path: "/blog",
+        path: "/build",
       },
       {
         id: 34,
-        title: "Sign In",
+        title: "Sell",
         newTab: false,
-        path: "/auth/signin",
+        path: "/sell",
       },
       {
         id: 35,
-        title: "Sign Up",
+        title: "Partner",
         newTab: false,
-        path: "/auth/signup",
+        path: "/partner",
       },
       {
         id: 35,
-        title: "Docs",
+        title: "Lease",
         newTab: false,
-        path: "/docs",
+        path: "/lease",
       },
       {
         id: 35.1,
-        title: "Support",
+        title: "Contribution Network",
         newTab: false,
-        path: "/support",
+        path: "/contribution",
       },
       {
         id: 36,
-        title: "404",
+        title: "Blockchain Assets",
         newTab: false,
-        path: "/error",
+        path: "/blockchain",
       },
     ],
   },
 
   {
     id: 4,
-    title: "Support",
+    title: "Company",
     newTab: false,
-    path: "/support"
+    submenu: [
+      {
+        id: 31,
+        title: "Our Story",
+        newTab: false,
+        path: "/our_story",
+      },
+      {
+        id: 34,
+        title: "Our Team",
+        newTab: false,
+        path: "/our_team",
+      },
+      {
+        id: 35,
+        title: "Blog",
+        newTab: false,
+        path: "/blog",
+      },
+      {
+        id: 35,
+        title: "Contact Us",
+        newTab: false,
+        path: "/#support",
+      },
+      {
+        id: 35.1,
+        title: "Partner with Us",
+        newTab: false,
+        path: "/support",
+      },      
+    ],
   },
 ];
 
