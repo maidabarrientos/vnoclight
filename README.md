@@ -46,7 +46,7 @@ ___
 [![Deploy with Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/NextJSTemplates/solid-nextjs)
 
 
-## Installation ::
+## Installation :::
 
 Here are the steps you need to follow to install the dependencies.
 
