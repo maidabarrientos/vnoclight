@@ -11,7 +11,7 @@ export default function BuildPage() {
               <div className="blog-details blog-details-docs rounded-sm bg-white py-11 px-8 shadow-three dark:bg-gray-dark sm:p-[55px] lg:mb-5 lg:px-8 xl:p-[55px]">
                 <Image className="mx-auto" src="/images/pages/page-icon-2.png" width="300" height="300" alt="title" />
                 <h1>Build</h1>                
-                <h4 class="mb-1">Build Your Vision with VNOC: Where Creativity Meets Automation</h4>
+                <h4 className="mb-1">Build Your Vision with VNOC: Where Creativity Meets Automation</h4>
                 <p className="mb-2">
                 Welcome to VNOC's Build page, your gateway to turning your digital dreams into reality faster and smarter than ever before. With cutting-edge AI features, automated processes, and a robust collaborative ecosystem, VNOC is your partner in creating impactful brands and ventures in record time.
                 </p> 
