@@ -22,7 +22,7 @@ const Testimonial = () => {
               headerInfo={{
                 title: `TESTIMONIALS`,
                 subtitle: `Client’s Testimonials`,
-                description: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. In convallis tortor eros. Donec vitae tortor lacus. Phasellus aliquam ante in maximus.`,
+                description: `VNOC – the cutting-edge platform and network that harnesses the power of blockchain technology, premium URL's, innovative business models (eCorp), and connected networks (Contrib) to empower you to build, manage, and monetize your digital assets like never before.`,
               }}
             />
           </div>
@@ -77,9 +77,9 @@ const Testimonial = () => {
                   <div className="flex justify-between border-b border-stroke dark:border-strokedark pb-6 mb-7.5">
                     <div>
                       <h4 className="text-black dark:text-white text-metatitle3 mb-1.5">
-                        Devid Smith
+                        Catherine Sicuya
                       </h4>
-                      <p>Founter @democompany</p>
+                      <p>Project Manager @ Tooreal Solutions</p>
                     </div>
                     <Image
                       width={60}
@@ -91,9 +91,7 @@ const Testimonial = () => {
                   </div>
 
                   <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                    Mauris hendrerit, ligula sit amet cursus tincidunt, lorem
-                    sem elementum nisi, convallis fringilla ante nibh non urna.
+                  I am thrilled to share my experience with VNOC, a truly cutting-edge platform that has completely transformed the way I manage and monetize my digital assets. From the moment I started using VNOC, I was captivated by its innovative approach, leveraging the power of blockchain technology, premium URL's, the revolutionary eCorp business model, and the interconnected networks through Contrib.
                   </p>
                 </div>
               </SwiperSlide>
@@ -103,9 +101,9 @@ const Testimonial = () => {
                   <div className="flex justify-between border-b border-stroke dark:border-strokedark pb-6 mb-7.5">
                     <div>
                       <h4 className="text-black dark:text-white text-metatitle3 mb-1.5">
-                        Jhon Abraham
+                        Seph AL Pine
                       </h4>
-                      <p>Founter @democompany</p>
+                      <p>Founter @ Camella Soft</p>
                     </div>
                     <Image
                       width={60}
@@ -117,9 +115,7 @@ const Testimonial = () => {
                   </div>
 
                   <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                    Mauris hendrerit, ligula sit amet cursus tincidunt, lorem
-                    sem elementum nisi, convallis fringilla ante nibh non urna.
+                  One of the most striking features of VNOC is its utilization of blockchain technology. This advanced technology ensures security, transparency, and immutability in managing digital assets. Knowing that my assets are protected by the robust security of blockchain technology has given me peace of mind like never before.
                   </p>
                 </div>
               </SwiperSlide>
@@ -129,9 +125,9 @@ const Testimonial = () => {
                   <div className="flex justify-between border-b border-stroke dark:border-strokedark pb-6 mb-7.5">
                     <div>
                       <h4 className="text-black dark:text-white text-metatitle3 mb-1.5">
-                        Devid Smith
+                        Lulu Conde
                       </h4>
-                      <p>Founter @democompany</p>
+                      <p>SEO Manager @ Damian Corp</p>
                     </div>
                     <Image
                       width={60}
@@ -143,9 +139,7 @@ const Testimonial = () => {
                   </div>
 
                   <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                    Mauris hendrerit, ligula sit amet cursus tincidunt, lorem
-                    sem elementum nisi, convallis fringilla ante nibh non urna.
+                  Contrib, the interconnected network within VNOC, has been instrumental in expanding my reach and connections within the digital realm. The ability to collaborate with like-minded individuals and businesses has opened doors to opportunities I would have never imagined. Contrib truly embodies the spirit of community and collaboration, fostering an environment where innovation flourishes.
                   </p>
                 </div>
               </SwiperSlide>
