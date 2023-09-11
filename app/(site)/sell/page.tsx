@@ -3,14 +3,41 @@ export default function SellPage() {
   return (
     <>
       <title>Sell</title>
-
-      <section className="pb-16 md:pb-20 lg:pb-24 pt-24 md:pt-28 lg:pt-32">
-        <div className="container mx-auto">
+      <section className="mx-auto max-w-c-1390 px-4 md:px-8 2xl:px-0 pt-25 md:pt-30 xl:pt-36 pb-20 xl:pb-25 overflow-hidden">
+        <div className="flex lg:items-center lg:gap-8 xl:gap-32.5">
+          <div className=" md:w-1/2">            
+            <h1 className="bg-gradient-to-r from-txtgrad1 to-black bg-clip-text text-transparent text-5xl xl:text-hero font-bold mb-5 pr-16 dark:text-white">
+            Sell
+            </h1>
+            <p>
+            VNOC is pleased to announce its partnership with DomainDirectory.com, a leading online directory serving a wide-ranging audience in search of specific domain categories. This strategic alliance guarantees that your domain gets precise exposure to the ideal audience, thereby enhancing the likelihood of a successful sale. Bid farewell to ordinary listings and welcome a carefully curated marketplace that connects your domain with potential buyers who genuinely recognize its worth.
+            </p>
+          </div>
+          <div className="animate_right md:w-1/2 hidden lg:block">
+            <div className="relative 2xl:-mr-7.5">                
+              <div className=" relative aspect-[700/444] w-full">
+                <Image
+                  className="dark:hidden shadow-solid-l"
+                  src="/images/hero/vnoc-dboard1.png"
+                  alt="Hero"
+                  fill
+                />
+                <Image
+                  className="hidden dark:block shadow-solid-l"
+                  src="/images/hero/vnoc-dboard1.png"
+                  alt="Hero"
+                  fill
+                />
+              </div>
+            </div>
+          </div> 
+        </div> 
+      </section>
+      <section className="pb-16 md:pb-20 lg:pb-24 pt-10 md:pt-10 lg:pt-10">
+        <div className="max-w-c-1390 relative mx-auto">
           <div className="flex flex-wrap -mx-4">
-            <div className="w-full px-4 lg:w-1/2 mx-auto">
+            <div className="w-full px-4 lg:w-4/4 mx-auto">
               <div className="blog-details blog-details-docs rounded-sm bg-white py-11 px-8 shadow-three dark:bg-gray-dark sm:p-[55px] lg:mb-5 lg:px-8 xl:p-[55px]">
-                <Image className="mx-auto" src="/images/pages/page-icon-3.png" width="300" height="300" alt="title" />
-                <h1>Sell</h1>                
                 <h4 className="mb-1">Unlocking Value: Sell with VNOC and Harness Vertical Network Effects</h4>
                 <p className="mb-2">
                 Welcome to VNOC's Sell page, where the power of domaindirectory.com and vertical network effects converge to elevate your domain's potential and generate substantial returns. With VNOC's innovative approach to selling, you're not just parting with a domain – you're tapping into a dynamic ecosystem that maximizes value creation.

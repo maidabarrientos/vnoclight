@@ -3,14 +3,41 @@ export default function BlockchainPage() {
   return (
     <>
       <title>Blockchain Assets</title>
-
-      <section className="pb-16 md:pb-20 lg:pb-24 pt-24 md:pt-28 lg:pt-32">
-        <div className="container mx-auto">
+      <section className="mx-auto max-w-c-1390 px-4 md:px-8 2xl:px-0 pt-25 md:pt-30 xl:pt-36 pb-20 xl:pb-25 overflow-hidden">
+        <div className="flex lg:items-center lg:gap-8 xl:gap-32.5">
+          <div className=" md:w-1/2">            
+            <h1 className="bg-gradient-to-r from-txtgrad1 to-black bg-clip-text text-transparent text-5xl xl:text-hero font-bold mb-5 pr-16 dark:text-white">
+            Blockchain Assets
+            </h1>
+            <p>
+            RealtyDAO is leading the way in real estate tokenization, providing a smooth and secure means to fragment property ownership via blockchain technology. Through the integration of RealtyDAO with VNOC, we've broadened the horizons beyond conventional domain sales, enabling you to tokenize and transfer domain ownership in a manner that mirrors the real estate market.
+           </p>
+          </div>
+          <div className="animate_right md:w-1/2 hidden lg:block">
+            <div className="relative 2xl:-mr-7.5">                
+              <div className=" relative aspect-[700/444] w-full">
+                <Image
+                  className="dark:hidden shadow-solid-l"
+                  src="/images/hero/vnoc-dboard1.png"
+                  alt="Hero"
+                  fill
+                />
+                <Image
+                  className="hidden dark:block shadow-solid-l"
+                  src="/images/hero/vnoc-dboard1.png"
+                  alt="Hero"
+                  fill
+                />
+              </div>
+            </div>
+          </div> 
+        </div> 
+      </section>
+      <section className="pb-16 md:pb-20 lg:pb-24 pt-10 md:pt-10 lg:pt-10">
+        <div className="max-w-c-1390 relative mx-auto">
           <div className="flex flex-wrap -mx-4">
-            <div className="w-full px-4 lg:w-1/2 mx-auto">
+            <div className="w-full px-4 lg:w-4/4 mx-auto">
               <div className="blog-details blog-details-docs rounded-sm bg-white py-11 px-8 shadow-three dark:bg-gray-dark sm:p-[55px] lg:mb-5 lg:px-8 xl:p-[55px]">
-                <Image className="mx-auto" src="/images/pages/page-icon-8.png" width="300" height="300" alt="title" />
-                <h1>Blockchain Assets</h1>                
                 <h4 className="mb-1">Revolutionize Domain Tokenization with RealtyDAO Integration</h4>
                 <p className="mb-2">
                 Welcome to the next level of domain tokenization with VNOC's groundbreaking integration of RealtyDAO. Elevate your domain selling strategy by leveraging the power of blockchain and tokenization, making domain token sales smoother, more efficient, and more accessible than ever before.

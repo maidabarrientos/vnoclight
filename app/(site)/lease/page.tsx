@@ -3,14 +3,41 @@ export default function LeasePage() {
   return (
     <>
       <title>Lease</title>
-
-      <section className="pb-16 md:pb-20 lg:pb-24 pt-24 md:pt-28 lg:pt-32">
-        <div className="container mx-auto">
+      <section className="mx-auto max-w-c-1390 px-4 md:px-8 2xl:px-0 pt-25 md:pt-30 xl:pt-36 pb-20 xl:pb-25 overflow-hidden">
+        <div className="flex lg:items-center lg:gap-8 xl:gap-32.5">
+          <div className=" md:w-1/2">            
+            <h1 className="bg-gradient-to-r from-txtgrad1 to-black bg-clip-text text-transparent text-5xl xl:text-hero font-bold mb-5 pr-16 dark:text-white">
+            Lease
+            </h1>
+            <p>
+            Whether your goal is to generate continuous income, maintain ownership, or provide flexible leasing options to potential lessees, VNOC's leasing features open the door to success in the domain leasing arena. Join us in transforming the domain industry by harnessing the potential of domain leasing and optimizing the worth of your premium domains. Welcome to a fresh era of domain monetization with VNOC.
+           </p>
+          </div>
+          <div className="animate_right md:w-1/2 hidden lg:block">
+            <div className="relative 2xl:-mr-7.5">                
+              <div className=" relative aspect-[700/444] w-full">
+                <Image
+                  className="dark:hidden shadow-solid-l"
+                  src="/images/hero/vnoc-dboard1.png"
+                  alt="Hero"
+                  fill
+                />
+                <Image
+                  className="hidden dark:block shadow-solid-l"
+                  src="/images/hero/vnoc-dboard1.png"
+                  alt="Hero"
+                  fill
+                />
+              </div>
+            </div>
+          </div> 
+        </div> 
+      </section>
+      <section className="pb-16 md:pb-20 lg:pb-24 pt-10 md:pt-10 lg:pt-10">
+        <div className="max-w-c-1390 relative mx-auto">
           <div className="flex flex-wrap -mx-4">
-            <div className="w-full px-4 lg:w-1/2 mx-auto">
+            <div className="w-full px-4 lg:w-4/4 mx-auto">
               <div className="blog-details blog-details-docs rounded-sm bg-white py-11 px-8 shadow-three dark:bg-gray-dark sm:p-[55px] lg:mb-5 lg:px-8 xl:p-[55px]">
-              <Image className="mx-auto" src="/images/pages/page-icon-6.png" width="300" height="300" alt="title" />
-                <h1>Lease</h1>                
                 <h4 className="mb-1">Unlock New Possibilities with VNOC's Lease Features</h4>
                 <p className="mb-2">
                   Welcome to the era of domain leasing, powered by VNOC's innovative lease features. Transform your approach to domain ownership and monetization by exploring the benefits of leasing your premium domains. Whether you're a domain investor, entrepreneur, or business owner, VNOC's lease features offer a flexible and lucrative way to maximize the value of your domains.  

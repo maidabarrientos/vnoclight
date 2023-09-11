@@ -3,14 +3,38 @@ export default function UCPage() {
   return (
     <>
       <title>Use Cases</title>
-      <section className="bg-gradient-to-r from-bggrad2 via-bggrad1 via-30% to-txt-grad2 pt-25 md:pt-30 xl:pt-36 pb-20 xl:pb-25 overflow-hidden">
-        <div className="text-center">
-          <Image className="mx-auto" src="/images/pages/page-icon-9.png" width="300" height="300" alt="title" />
-          <h1 className="text-5xl font-bold text-black">Use Cases</h1>  
+      <section className="mx-auto max-w-c-1390 px-4 md:px-8 2xl:px-0 pt-25 md:pt-30 xl:pt-36 pb-20 xl:pb-25 overflow-hidden">
+        <div className="flex lg:items-center lg:gap-8 xl:gap-32.5">
+          <div className=" md:w-1/2">            
+            <h1 className="bg-gradient-to-r from-txtgrad1 to-black bg-clip-text text-transparent text-5xl xl:text-hero font-bold mb-5 pr-16 dark:text-white">
+            Use Cases
+            </h1>
+            <p>
+            VNOC platform offers a comprehensive solution for digital entrepreneurs, allowing them to effortlessly turn their dormant domains into successful online enterprises. With the assistance of the Brand Builder tool, domains can be rapidly transformed into fully-developed brands, complete with customized structures.
+            </p>
+          </div>
+          <div className="animate_right md:w-1/2 hidden lg:block">
+            <div className="relative 2xl:-mr-7.5">                
+              <div className=" relative aspect-[700/444] w-full">
+                <Image
+                  className="dark:hidden shadow-solid-l"
+                  src="/images/hero/vnoc-dboard1.png"
+                  alt="Hero"
+                  fill
+                />
+                <Image
+                  className="hidden dark:block shadow-solid-l"
+                  src="/images/hero/vnoc-dboard1.png"
+                  alt="Hero"
+                  fill
+                />
+              </div>
+            </div>
+          </div> 
         </div> 
       </section>
       <section className="pb-16 md:pb-20 lg:pb-24 pt-10 md:pt-10 lg:pt-10">
-        <div className="container mx-auto">
+        <div className="max-w-c-1390 relative mx-auto">
           <div className="flex flex-wrap -mx-4">
             <div className="w-full px-4 lg:w-4/4 mx-auto">
               <div className="blog-details blog-details-docs rounded-sm bg-white py-11 px-8 shadow-three dark:bg-gray-dark sm:p-[55px] lg:mb-5 lg:px-8 xl:p-[55px]">                             

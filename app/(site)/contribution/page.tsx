@@ -3,14 +3,41 @@ export default function ContributionPage() {
   return (
     <>
       <title>Contribution Network</title>
-
-      <section className="pb-16 md:pb-20 lg:pb-24 pt-24 md:pt-28 lg:pt-32">
-        <div className="container mx-auto">
+      <section className="mx-auto max-w-c-1390 px-4 md:px-8 2xl:px-0 pt-25 md:pt-30 xl:pt-36 pb-20 xl:pb-25 overflow-hidden">
+        <div className="flex lg:items-center lg:gap-8 xl:gap-32.5">
+          <div className=" md:w-1/2">            
+            <h1 className="bg-gradient-to-r from-txtgrad1 to-black bg-clip-text text-transparent text-5xl xl:text-hero font-bold mb-5 pr-16 dark:text-white">
+            Contribution Network
+            </h1>
+            <p>
+            Contrib.com serves as the vibrant epicenter where our VNOC community thrives. It's the platform where people with a wide array of skills, spanning from content creation to web development, convene to lend their expertise for the advancement of your digital assets. This network operates as a mutually beneficial partnership: you accomplish your tasks, and contributors earn rewards, fostering a win-win situation for all participants.
+           </p>
+          </div>
+          <div className="animate_right md:w-1/2 hidden lg:block">
+            <div className="relative 2xl:-mr-7.5">                
+              <div className=" relative aspect-[700/444] w-full">
+                <Image
+                  className="dark:hidden shadow-solid-l"
+                  src="/images/hero/vnoc-dboard1.png"
+                  alt="Hero"
+                  fill
+                />
+                <Image
+                  className="hidden dark:block shadow-solid-l"
+                  src="/images/hero/vnoc-dboard1.png"
+                  alt="Hero"
+                  fill
+                />
+              </div>
+            </div>
+          </div> 
+        </div> 
+      </section>
+      <section className="pb-16 md:pb-20 lg:pb-24 pt-10 md:pt-10 lg:pt-10">
+        <div className="max-w-c-1390 relative mx-auto">
           <div className="flex flex-wrap -mx-4">
-            <div className="w-full px-4 lg:w-1/2 mx-auto">
+            <div className="w-full px-4 lg:w-4/4 mx-auto">
               <div className="blog-details blog-details-docs rounded-sm bg-white py-11 px-8 shadow-three dark:bg-gray-dark sm:p-[55px] lg:mb-5 lg:px-8 xl:p-[55px]">
-                <Image className="mx-auto" src="/images/pages/page-icon-7.png" width="300" height="300" alt="title" />
-                <h1>Contribution Network</h1>                
                 <h4 className="mb-1">Empowerment and Collaboration with VNOC's Contribution Network</h4>
                 <p className="mb-2">
                   Welcome to the heart of VNOC's innovation - the Contribution Network. Imagine a community of talented professionals and enthusiasts who are not just spectators, but active participants in building, shaping, and growing your digital ventures. Welcome to Contrib.com, where collaboration takes center stage and fuels the success of your domains.
