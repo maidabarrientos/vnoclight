@@ -64,7 +64,7 @@ export default function OSPage() {
                 <h4>Begin Your VNOC Journey</h4>
                 <p>
                   Chad Folkening's story is more than an inspiration; it's a roadmap for those who dare to dream expansively within the digital domain. With VNOC as your ally, you have the opportunity to leverage blockchain prowess, data-derived insights, and collaborative networks to forge, govern, and transcend in your digital endeavors.
-                  Are you ready to embark on a journey that transcends conventional domain investments? VNOC beckons, poised to empower you to construct a portfolio that doesn't just influence industries, but redefines them. Just as Chad Folkening forged his legacy, you too can script a narrative of innovation and triumph with VNOC as your guiding star. Your journey commences now.
+                  Are you ready to embark on a journey that transcends conventional domain investments. VNOC beckons, poised to empower you to construct a portfolio that doesn't just influence industries, but redefines them. Just as Chad Folkening forged his legacy, you too can script a narrative of innovation and triumph with VNOC as your guiding star. Your journey commences now.
 	              </p>                                                          
               </div>
             </div>
