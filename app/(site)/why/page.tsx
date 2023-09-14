@@ -39,7 +39,7 @@ export default function WhyPage() {
             <div className="w-full px-4 lg:w-4/4 mx-auto">
               <div className="blog-details blog-details-docs rounded-sm bg-white py-11 px-8 shadow-three dark:bg-gray-dark sm:p-[55px] lg:mb-5 lg:px-8 xl:p-[55px]">                
                 <div className="animate_top text-center mx-auto">
-                  <h2 class="font-bold text-3xl xl:text-sectiontitle3 text-black dark:text-white md:w-4/5 xl:w-1/2 mx-auto mb-4">Cutting-Edge Technology</h2>
+                  <h2 className="font-bold text-3xl xl:text-sectiontitle3 text-black dark:text-white md:w-4/5 xl:w-1/2 mx-auto mb-4">Cutting-Edge Technology</h2>
                   <p className="text-base text-body-color dark:text-body-color-dark">
                   In a rapidly evolving digital landscape, the need for a platform that empowers individuals and businesses to maximize their online assets has never been greater. Welcome to VNOC – Your Next-Gen Digital Asset Platform. Our cutting-edge technology and innovative approach are revolutionizing the way you manage, build, and monetize your digital assets. Here's why VNOC should be your top choice:
                   </p>
