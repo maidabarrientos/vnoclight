@@ -108,6 +108,7 @@ export default function WhyPage() {
                       </div>
                       <h3 className="font-semibold text-xl xl:text-itemtitle text-black dark:text-white mt-7.5 mb-5">Expertise Meets Innovation</h3>
                       <p>Backed by a team of industry experts, VNOC combines decades of experience with cutting-edge technology. This synergy creates a platform that not only addresses your current needs but anticipates future trends, keeping you ahead of the curve.</p>
+                      
                     </div>                
                   </div>
                 </div>
