@@ -14,17 +14,17 @@ export default function LeasePage() {
            </p>
           </div>
           <div className="animate_right md:w-1/2 hidden lg:block">
-            <div className="relative 2xl:-mr-7.5">                
-              <div className=" relative aspect-[700/444] w-full">
+            <div className="relative">                
+              <div className=" relative aspect-[1090/810] w-full">
                 <Image
                   className="dark:hidden shadow-solid-l"
-                  src="/images/hero/vnoc-dboard1.png"
+                  src="/images/hero/vdboard6.png"
                   alt="Hero"
                   fill
                 />
                 <Image
                   className="hidden dark:block shadow-solid-l"
-                  src="/images/hero/vnoc-dboard1.png"
+                  src="/images/hero/vdboard6.png"
                   alt="Hero"
                   fill
                 />
