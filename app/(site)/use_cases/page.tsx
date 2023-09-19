@@ -44,13 +44,13 @@ export default function UCPage() {
                       <div className=" relative aspect-[700/444] w-full">
                         <Image
                           className="dark:hidden shadow-solid-l"
-                          src="/images/about/about-light-01.svg"
+                          src="/images/hero/uc-image5.png"
                           alt="Hero"
                           fill
                         />
                         <Image
                           className="hidden dark:block shadow-solid-l"
-                          src="/images/about/about-dark-01.svg"
+                          src="/images/hero/uc-image5.png"
                           alt="Hero"
                           fill
                         />
@@ -139,13 +139,13 @@ export default function UCPage() {
                       <div className=" relative aspect-[700/444] w-full">
                         <Image
                           className="dark:hidden shadow-solid-l"
-                          src="/images/about/about-light-01.svg"
+                          src="/images/hero/uc-image6.png"
                           alt="Hero"
                           fill
                         />
                         <Image
                           className="hidden dark:block shadow-solid-l"
-                          src="/images/about/about-dark-01.svg"
+                          src="/images/hero/uc-image6.png"
                           alt="Hero"
                           fill
                         />
@@ -234,13 +234,13 @@ export default function UCPage() {
                       <div className=" relative aspect-[700/444] w-full">
                         <Image
                           className="dark:hidden shadow-solid-l"
-                          src="/images/about/about-light-01.svg"
+                          src="/images/hero/uc-image7.png"
                           alt="Hero"
                           fill
                         />
                         <Image
                           className="hidden dark:block shadow-solid-l"
-                          src="/images/about/about-dark-01.svg"
+                          src="/images/hero/uc-image7.png"
                           alt="Hero"
                           fill
                         />
