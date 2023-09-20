@@ -76,16 +76,16 @@ export default function LeasePage() {
                   </div>                  
                   <div className="animate_right md:w-1/2 hidden lg:block">
                     <div className="relative 2xl:-mr-7.5">                
-                      <div className=" relative aspect-[700/444] w-full">
+                      <div className=" relative aspect-[830/600] w-full">
                         <Image
                           className="dark:hidden shadow-solid-l"
-                          src="/images/about/about-light-01.svg"
+                          src="/images/hero/ls-image1.png"
                           alt="Hero"
                           fill
                         />
                         <Image
                           className="hidden dark:block shadow-solid-l"
-                          src="/images/about/about-dark-01.svg"
+                          src="/images/hero/ls-image1.png"
                           alt="Hero"
                           fill
                         />
@@ -123,16 +123,16 @@ export default function LeasePage() {
                 <div className="flex items-center gap-8 lg:gap-19 mt-12.5 lg:mt-15 xl:mt-20">
                   <div className="animate_right md:w-1/2 hidden lg:block">
                     <div className="relative 2xl:-mr-7.5">                
-                      <div className=" relative aspect-[700/444] w-full">
+                      <div className=" relative aspect-[830/600] w-full">
                         <Image
                           className="dark:hidden shadow-solid-l"
-                          src="/images/about/about-light-01.svg"
+                          src="/images/hero/ls-image2.png"
                           alt="Hero"
                           fill
                         />
                         <Image
                           className="hidden dark:block shadow-solid-l"
-                          src="/images/about/about-dark-01.svg"
+                          src="/images/hero/ls-image2.png"
                           alt="Hero"
                           fill
                         />
@@ -204,16 +204,16 @@ export default function LeasePage() {
                   </div>
                   <div className="animate_right md:w-1/2 hidden lg:block">
                     <div className="relative 2xl:-mr-7.5">                
-                      <div className=" relative aspect-[700/444] w-full">
+                      <div className=" relative aspect-[830/600] w-full">
                         <Image
                           className="dark:hidden shadow-solid-l"
-                          src="/images/about/about-light-01.svg"
+                          src="/images/hero/ls-image3.png"
                           alt="Hero"
                           fill
                         />
                         <Image
                           className="hidden dark:block shadow-solid-l"
-                          src="/images/about/about-dark-01.svg"
+                          src="/images/hero/ls-image3.png"
                           alt="Hero"
                           fill
                         />
