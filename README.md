@@ -33,10 +33,8 @@ The documentation includes all the guides you need for the integrations.
 
 If you are using a GitHub repo then you can go with free-of-cost and easy-to-use options like [Vercel](https://vercel.com/), or [Netlify](https://netlify.com/) they offer decent-free tiers for Next.js hosting.
 
-### 📄 License
-Solid Free is 100% free and open-source, feel free to use with your personal and commercial projects.
 
 ### 💜 Support
 If you like the template, please star this repository to inspire the team to create more stuff like this and reach more users like you!
 
-### ✨ Browse and Download - Best Free [Next.js Templates](https://nextjstemplates.com/templates)
+
