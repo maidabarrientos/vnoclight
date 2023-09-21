@@ -32,6 +32,9 @@ export default function RootLayout({
             <Footer />
             <ScrollToTop />
         </ThemeProvider>
+
+          <script type="text/javascript" id="hs-script-loader" async defer src="//js.hs-scripts.com/42816889.js"></script>
+       
       </body>
     </html>
   );
