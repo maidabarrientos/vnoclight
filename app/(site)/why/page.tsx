@@ -100,7 +100,7 @@ export default function WhyPage() {
                         <Image src="/images/icon/033-social media.svg" width={36} height={36} alt="title" />
                       </div>
                       <h3 className="font-semibold text-xl xl:text-itemtitle text-black dark:text-white mt-7.5 mb-5">Unmatched Social Tools</h3>
-                      <p>Harness the potential of social media with VNOC's Social Suite application. Effortlessly create, manage, and distribute content across your social handles, amplifying your online presence with ease.</p>
+                      <p>Harness the potential of social media with VNOC's Social Suite Application. Effortlessly create, manage, and distribute content across your social handles, amplifying your online presence with ease.</p>
                     </div>
                     <div className="animate_top border border-white shadow-solid-3 rounded-lg p-7.5 xl:p-12.5 transition-all hover:shadow-solid-4 dark:hover:bg-hoverdark dark:border-strokedark dark:bg-blacksection z-40 bg-white">
                       <div className="flex items-center justify-center rounded-[4px] bg-primary w-16 h-16 relative">
