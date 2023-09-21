@@ -161,7 +161,7 @@ const Contact = () => {
 
               <div className="mb-7 5">
                 <h4 className="font-medium text-black dark:text-white text-metatitle3 mb-4">
-                  Our Location
+                  Our Loaction
                 </h4>
                 <p>Indianapolis, IN 46220, United States</p>
               </div>

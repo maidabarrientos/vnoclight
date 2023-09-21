@@ -13,8 +13,8 @@ const Pricing = () => {
           <div className="animate_top text-center mx-auto">
             <SectionHeader
               headerInfo={{
-                title: `PRICING PLANS`,
-                subtitle: `Simple Pricing`,
+                title: `PRICING`,
+                subtitle: `Our Plans`,
                 description: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. In convallis tortor eros. Donec vitae tortor lacus. Phasellus aliquam ante in maximus.`,
               }}
             />

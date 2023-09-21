@@ -109,15 +109,15 @@ const Footer = () => {
                   <ul>
                     <li>
                       <a
-                        href="https://about.vnoc.com/"
+                        href="#"
                         className="inline-block hover:text-primary mb-3"
                       >
-                        FAQ
+                        Pricing
                       </a>
                     </li>
                     <li>
                       <a
-                        href="#features"
+                        href="#"
                         className="inline-block hover:text-primary mb-3"
                       >
                         Features
@@ -128,10 +128,17 @@ const Footer = () => {
                         href="#"
                         className="inline-block hover:text-primary mb-3"
                       >
+                        Documentations
+                      </a>
+                    </li>
+                    <li>
+                      <a
+                        href="#"
+                        className="inline-block hover:text-primary mb-3"
+                      >
                         Blog
                       </a>
                     </li>
-                    
                     <li>
                       <a
                         href="#"
@@ -168,7 +175,7 @@ const Footer = () => {
                   <ul>
                     <li>
                       <a
-                        href="/#support"
+                        href="#"
                         className="inline-block hover:text-primary mb-3"
                       >
                         Contact Us
@@ -176,7 +183,7 @@ const Footer = () => {
                     </li>
                     <li>
                       <a
-                        href="/webinar"
+                        href="#"
                         className="inline-block hover:text-primary mb-3"
                       >
                         Webinar
@@ -184,7 +191,7 @@ const Footer = () => {
                     </li>
                     <li>
                       <a
-                        href="https://contrib.com"
+                        href="#"
                         className="inline-block hover:text-primary mb-3"
                       >
                         Contrib Network
