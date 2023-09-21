@@ -21,8 +21,8 @@ const WebinarPage = () => {
                 <h1 className="bg-gradient-to-r from-txtgrad1 to-black bg-clip-text text-transparent text-5xl xl:text-hero font-bold mb-5 pr-16 dark:text-white">
                 JOIN OUR LIVE WEBINARS
                 </h1>
-                <div class="bg-zumthor dark:bg-blacksection dark:border dark:border-strokedark inline-block rounded-full py-1.5 px-4.5 mb-4">
-            <h4 class="font-medium text-sectiontitle text-black dark:text-white"><a href="https://app.livestorm.co/p/0fa43c49-393f-4719-8498-e073959e21f7/live?s=dcca3ca3-9e94-4ded-9510-e0299ad28f6b">
+                <div className="bg-zumthor dark:bg-blacksection dark:border dark:border-strokedark inline-block rounded-full py-1.5 px-4.5 mb-4">
+            <h4 className="font-medium text-sectiontitle text-black dark:text-white"><a href="https://app.livestorm.co/p/0fa43c49-393f-4719-8498-e073959e21f7/live?s=dcca3ca3-9e94-4ded-9510-e0299ad28f6b">
                 BROWSE WEBINAR SESSIONS</a>
             </h4>
         </div>
