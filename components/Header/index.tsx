@@ -157,7 +157,7 @@ const Header = () => {
            
 
             <Link
-              href="https://www.vnoc.com/apply/" target="_blank"
+              href="https://apply.vnoc.com/" target="_blank"
               className="flex items-center justify-center bg-primary hover:bg-primaryho ease-in-out duration-300 text-white text-regular rounded-full py-2.5 px-7.5"
             >
               Apply for Beta Access 🔥

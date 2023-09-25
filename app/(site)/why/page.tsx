@@ -18,13 +18,13 @@ export default function WhyPage() {
               <div className=" relative aspect-[1090/810] w-full">
                 <Image
                   className="dark:hidden shadow-solid-l"
-                  src="/images/hero/vdboard2a.png"
+                  src="/images/hero/vnboard_image3.png"
                   alt="Hero"
                   fill
                 />
                 <Image
                   className="hidden dark:block shadow-solid-l"
-                  src="/images/hero/vdboard2a.png"
+                  src="/images/hero/vnboard_image3.png"
                   alt="Hero"
                   fill
                 />
