@@ -18,13 +18,13 @@ export default function ContributionPage() {
               <div className=" relative aspect-[1090/810] w-full">
                 <Image
                   className="dark:hidden shadow-solid-l"
-                  src="/images/hero/vdboard7.png"
+                  src="/images/hero/vnboard_image8.png"
                   alt="Hero"
                   fill
                 />
                 <Image
                   className="hidden dark:block shadow-solid-l"
-                  src="/images/hero/vdboard7.png"
+                  src="/images/hero/vnboard_image8.png"
                   alt="Hero"
                   fill
                 />
