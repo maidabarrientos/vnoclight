@@ -24,6 +24,14 @@ const featuresTabData: FeatureTab[] = [
     desc2: `Wrap relevant internal apps around your venture as needed to streamline operations and improve efficiency.`,
     image: "/images/features/features-dark-01.png",
     imageDark: "/images/features/features-dark-01.png",
+  },
+  {
+    id: "tabFour",
+    title: "Venture Builder",
+    desc1: `Enhance your venture with a suite of over 22 integrated apps.`,
+    desc2: `Wrap relevant internal apps around your venture as needed to streamline operations and improve efficiency.`,
+    image: "/images/features/features-dark-01.png",
+    imageDark: "/images/features/features-dark-01.png",
   }
 ];
 

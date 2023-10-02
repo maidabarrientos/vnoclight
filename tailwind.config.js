@@ -40,6 +40,7 @@ module.exports = {
       bggrad2:"#ffde59",
       txtgrad1:"#094865",
       txtgrad2:"#fddc79",
+      hintred:"#ef476f",
       
   },
     extend: {

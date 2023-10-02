@@ -2,16 +2,15 @@ import Image from "next/image";
 export default function SellPage() {
   return (
     <>
-      <title>Sell</title>
+      <title>Sell Your Digital Assets with VNOC</title>
       <section className="mx-auto max-w-c-1390 px-4 md:px-8 2xl:px-0 pt-25 md:pt-30 xl:pt-36 pb-20 xl:pb-25 overflow-hidden">
         <div className="flex lg:items-center lg:gap-8 xl:gap-32.5">
           <div className=" md:w-1/2">            
-            <h1 className="bg-gradient-to-r from-txtgrad1 to-black bg-clip-text text-transparent text-5xl xl:text-hero font-bold mb-5 pr-16 dark:text-white">
-            Sell
+            <h1 className="bg-gradient-to-r from-txtgrad1 to-hintred bg-clip-text text-transparent text-5xl xl:text-hero font-bold mb-5 pr-16 dark:text-white">
+            Selling Digital Assets With Confidence
             </h1>
-            <p>
-            VNOC is pleased to announce its partnership with DomainDirectory.com, a leading online directory serving a wide-ranging audience in search of specific domain categories. This strategic alliance guarantees that your domain gets precise exposure to the ideal audience, thereby enhancing the likelihood of a successful sale. Bid farewell to ordinary listings and welcome a carefully curated marketplace that connects your domain with potential buyers who genuinely recognize its worth.
-            </p>
+            <p>Are you ready to revolutionize how you sell domains? Look no further. VNOC, in partnership with DomainDirectory.com, is your gateway to unlocking the full potential of your digital assets.</p>
+            
           </div>
           <div className="animate_right md:w-1/2 hidden lg:block">
             <div className="relative">                
@@ -61,7 +60,7 @@ export default function SellPage() {
                     <h5 className="text-black dark:text-white font-medium uppercase">Unlocking Value</h5>           
                     <h2 className="relative font-bold text-black dark:text-white text-3xl mb-6">Sell with VNOC and Harness Vertical Network Effects</h2>
                     <p>
-                    Welcome to VNOC's Sell page, where the power of domaindirectory.com and vertical network effects converge to elevate your domain's potential and generate substantial returns. With VNOC's innovative approach to selling, you're not just parting with a domain – you're tapping into a dynamic ecosystem that maximizes value creation.
+                    Vertical network effects converge to elevate your domain's potential and generate substantial returns. With VNOC's innovative approach to selling, you're not just parting with a domain – you're tapping into a dynamic ecosystem that maximizes value creation.
                     </p>
                   </div>
                 </div>
@@ -119,9 +118,9 @@ export default function SellPage() {
                     </p>
                   </div>
                 </div>
-                <div className="mx-auto max-w-c-1315 px-4 md:px-8 xl:px-0">                    
+                <div className="mx-auto max-w-c-1315 px-4 md:px-8 xl:px-0 ">                    
                   <div className="grid grid-cols-1 md:grid-cols-1 lg:grid-cols-1 gap-7.5 xl:gap-12.5 mt-10 lg:mt-10 xl:mt-10">
-                    <div className="animate_top border border-white shadow-solid-3 rounded-lg p-7.5 xl:p-12.5 transition-all hover:shadow-solid-4 dark:hover:bg-hoverdark dark:border-strokedark dark:bg-blacksection z-40 bg-white">
+                    <div className="bg-gradient-to-r from-bggrad2 via-alabaster via-50% to-txt-grad2 animate_top border border-white shadow-solid-3 rounded-lg p-7.5 xl:p-12.5 transition-all hover:shadow-solid-4 dark:hover:bg-hoverdark dark:border-strokedark dark:bg-blacksection z-40">
                       <h2 className="relative font-bold text-black dark:text-white text-3xl xl:text-hero mb-6">
                       The VNOC Advantage: Selling Redefined
                       </h2>
@@ -189,7 +188,59 @@ export default function SellPage() {
                           </h5>
                           <p>Through vertical network effects, your domain gains value from its association with related category domains. This comprehensive approach attracts buyers looking for holistic solutions.</p>
                         </div>
-                      </div>                      
+                      </div>
+                      <div className="mt-7.5 flex items-center gap-5">
+                        <div className="w-15 h-15 rounded-[50%] border border-stroke dark:border-strokedark dark:bg-blacksection flex items-center justify-center">
+                          <div className="text-black dark:text-white font-semibold text-metatitle2">
+                            06
+                          </div>
+                        </div>
+                        <div className="w-3/4">
+                          <h5 className="text-black dark:text-white text-metatitle2 mb-0.5">
+                          Marketplace Listings
+                          </h5>
+                          <p>List your domains on our marketplace for increased visibility.</p>
+                        </div>
+                      </div>
+                      <div className="mt-7.5 flex items-center gap-5">
+                        <div className="w-15 h-15 rounded-[50%] border border-stroke dark:border-strokedark dark:bg-blacksection flex items-center justify-center">
+                          <div className="text-black dark:text-white font-semibold text-metatitle2">
+                            07
+                          </div>
+                        </div>
+                        <div className="w-3/4">
+                          <h5 className="text-black dark:text-white text-metatitle2 mb-0.5">
+                          Direct Buyer Connections
+                          </h5>
+                          <p>Connect directly with potential buyers.</p>
+                        </div>
+                      </div>
+                      <div className="mt-7.5 flex items-center gap-5">
+                        <div className="w-15 h-15 rounded-[50%] border border-stroke dark:border-strokedark dark:bg-blacksection flex items-center justify-center">
+                          <div className="text-black dark:text-white font-semibold text-metatitle2">
+                            08
+                          </div>
+                        </div>
+                        <div className="w-3/4">
+                          <h5 className="text-black dark:text-white text-metatitle2 mb-0.5">
+                          Buyer Profile Analysis
+                          </h5>
+                          <p>Gain insights into buyer preferences and behavior.</p>
+                        </div>
+                      </div> 
+                      <div className="mt-7.5 flex items-center gap-5">
+                        <div className="w-15 h-15 rounded-[50%] border border-stroke dark:border-strokedark dark:bg-blacksection flex items-center justify-center">
+                          <div className="text-black dark:text-white font-semibold text-metatitle2">
+                            09
+                          </div>
+                        </div>
+                        <div className="w-3/4">
+                          <h5 className="text-black dark:text-white text-metatitle2 mb-0.5">
+                          Lowest Commissions at 5%
+                          </h5>
+                          <p>Enjoy industry-leading commissions, maximizing your returns.</p>
+                        </div>
+                      </div>                              
                     </div>
                   </div>
                 </div>

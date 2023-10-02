@@ -101,10 +101,11 @@ const FeaturesTab = () => {
               </div>
               <div className="lg:w-auto md:w-3/5">
                 <h5 className="text-black dark:text-white text-sm xl:text-regular font-medium">
-                Network Apps
+                Venture Builder
                 </h5>
               </div>
             </div>
+            
           </motion.div>
           {/* <!-- Tab Menues End --> */}
 

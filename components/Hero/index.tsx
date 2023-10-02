@@ -1,8 +1,10 @@
 "use client";
 import React, { useState } from "react";
 import Image from "next/image";
+import Link from "next/link";
 
 import { motion } from "framer-motion";
+
 
 const Hero = () => {
   const [email, setEmail] = useState("");
@@ -28,23 +30,12 @@ const Hero = () => {
               </p>
 
               <div className="mt-10">
-                <form onSubmit={handleSubmit}>
-                  <div className="flex flex-wrap gap-5">
-                    <input
-                      value={email}
-                      onChange={(e) => setEmail(e.target.value)}
-                      type="text"
-                      placeholder="Enter your email address"
-                      className="dark:bg-black border border-stroke dark:border-strokedark shadow-solid-2 dark:shadow-none rounded-full focus:outline-none focus:border-primary dark:focus:border-primary py-2.5 px-6"
-                    />
-                    <button
-                      aria-label="signup to newsletter"
-                      className="flex bg-black hover:bg-blackho dark:bg-btndark text-white rounded-full ease-in-out duration-300 px-7.5 py-2.5"
-                    >
-                      Get Started
-                    </button>
-                  </div>
-                </form>
+              <Link
+              href="https://apply.vnoc.com/" target="_blank"
+              className="right-align bg-black hover:bg-primaryho ease-in-out duration-300 text-white text-regular rounded-full py-2.5 px-7.5"
+            >
+              Apply Now 🔥
+            </Link>
 
              
               </div>
