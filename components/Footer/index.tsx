@@ -72,27 +72,35 @@ const Footer = () => {
                   viewport={{ once: true }}
                   className="animate_top"
                 >
-                  <h4 className="font-medium text-black dark:text-white text-itemtitle2 mb-9">
+                  <h4 className="font-medium text-black dark:text-white text-itemtitle2 mb-1">
                     About
                   </h4>
 
                   <ul>
                     <li>
                       <a
-                        href="#"
+                        href="/why"
                         className="inline-block hover:text-primary mb-3"
                       >
-                        Pricing
+                        Why VNOC
                       </a>
                     </li>
                     <li>
                       <a
-                        href="#"
+                        href="#features"
                         className="inline-block hover:text-primary mb-3"
                       >
                         Features
                       </a>
-                    </li>
+                    </li>                    
+                    <li>
+                      <a
+                        href="/blog"
+                        className="inline-block hover:text-primary mb-3"
+                      >
+                        Blog
+                      </a>
+                    </li>  
                     <li>
                       <a
                         href="#"
@@ -100,23 +108,7 @@ const Footer = () => {
                       >
                         Documentations
                       </a>
-                    </li>
-                    <li>
-                      <a
-                        href="#"
-                        className="inline-block hover:text-primary mb-3"
-                      >
-                        Blog
-                      </a>
-                    </li>
-                    <li>
-                      <a
-                        href="#"
-                        className="inline-block hover:text-primary mb-3"
-                      >
-                        Press Room
-                      </a>
-                    </li>
+                    </li>                                      
                   </ul>
                 </motion.div>
 
@@ -138,109 +130,101 @@ const Footer = () => {
                   viewport={{ once: true }}
                   className="animate_top"
                 >
-                  <h4 className="font-medium text-black dark:text-white text-itemtitle2 mb-9">
-                    Community
+                  <h4 className="font-medium text-black dark:text-white text-itemtitle2 mb-1">
+                    Solutions
                   </h4>
 
                   <ul>
                     <li>
                       <a
-                        href="#"
+                        href="https://domaindirectory.com/servicepage/?domain=vnoc.com" target="_blank"
                         className="inline-block hover:text-primary mb-3"
                       >
-                        Contact Us
+                        Build
                       </a>
                     </li>
                     <li>
                       <a
-                        href="#"
+                        href="https://domaindirectory.com/servicepage/?domain=vnoc.com" target="_blank"
                         className="inline-block hover:text-primary mb-3"
                       >
-                        Webinar
+                        Invest
                       </a>
                     </li>
                     <li>
                       <a
-                        href="#"
+                        href="https://domaindirectory.com/servicepage/?domain=vnoc.com" target="_blank"
                         className="inline-block hover:text-primary mb-3"
                       >
-                        Contrib Network
+                        Manage
                       </a>
                     </li>
                     <li>
                       <a
-                        href="#"
+                        href="https://domaindirectory.com/servicepage/?domain=vnoc.com" target="_blank"
                         className="inline-block hover:text-primary mb-3"
                       >
-                        Social Media
-                      </a>
-                    </li>
-                  </ul>
-                </motion.div>
-
-                <motion.div
-                  variants={{
-                    hidden: {
-                      opacity: 0,
-                      y: -20,
-                    },
-
-                    visible: {
-                      opacity: 1,
-                      y: 0,
-                    },
-                  }}
-                  initial="hidden"
-                  whileInView="visible"
-                  transition={{ duration: 1, delay: 0.1 }}
-                  viewport={{ once: true }}
-                  className="animate_top"
-                >
-                  <h4 className="font-medium text-black dark:text-white text-itemtitle2 mb-9">
-                    Use Cases
-                  </h4>
-                  <ul>
-                    <li>
-                      <a
-                        href="#"
-                        className="inline-block hover:text-primary mb-3"
-                      >
-                        For Digital Creatives
-                      </a>
-                    </li>
-                    <li>
-                      <a
-                        href="#"
-                        className="inline-block hover:text-primary mb-3"
-                      >
-                        For Domainers
-                      </a>
-                    </li>
-                    <li>
-                      <a
-                        href="#"
-                        className="inline-block hover:text-primary mb-3"
-                      >
-                        For Digital Entrepreneurs
-                      </a>
-                    </li>
-                    <li>
-                      <a
-                        href="#"
-                        className="inline-block hover:text-primary mb-3"
-                      >
-                        For Developers
-                      </a>
-                    </li>
-                    <li>
-                      <a
-                        href="#"
-                        className="inline-block hover:text-primary mb-3"
-                      >
-                        For TLD Owners
+                        Monetize
                       </a>
                     </li>
                   </ul>                  
+                </motion.div>
+
+                <motion.div
+                  variants={{
+                    hidden: {
+                      opacity: 0,
+                      y: -20,
+                    },
+
+                    visible: {
+                      opacity: 1,
+                      y: 0,
+                    },
+                  }}
+                  initial="hidden"
+                  whileInView="visible"
+                  transition={{ duration: 1, delay: 0.1 }}
+                  viewport={{ once: true }}
+                  className="animate_top"
+                >
+                  <h4 className="font-medium text-black dark:text-white text-itemtitle2 mb-1">
+                    Company
+                  </h4>
+                  <ul>  
+                  <li>
+                      <a
+                        href="/contribution"
+                        className="inline-block hover:text-primary mb-3"
+                      >
+                        Contrib network
+                      </a>
+                    </li> 
+                    <li>
+                      <a
+                        href="/our_story"
+                        className="inline-block hover:text-primary mb-3"
+                      >
+                        Our Story
+                      </a>
+                    </li>                   
+                    <li>
+                      <a
+                        href="/our_team"
+                        className="inline-block hover:text-primary mb-3"
+                      >
+                        Our Team
+                      </a>
+                    </li>                    
+                    <li>
+                      <a
+                        href="https://apply.vnoc.com/" target="_blank"
+                        className="inline-block hover:text-primary mb-3"
+                      >
+                        Partner With Us
+                      </a>
+                    </li>
+                  </ul>              
                 </motion.div>
               </div>
             </div>
