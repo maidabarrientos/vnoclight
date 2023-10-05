@@ -2,7 +2,7 @@
 import React from "react";
 import Image from "next/image";
 import { motion } from "framer-motion";
-import VNOC_contact from "../Forms/contact";
+import HubspotContactForm from "../Forms/hubspot";
 
 
 const Contact = () => {
@@ -58,7 +58,7 @@ const Contact = () => {
               <h2 className="text-black dark:text-white text-3xl xl:text-sectiontitle2 font-semibold mb-15">
                 Send a message
               </h2>
-              <VNOC_contact />
+              <HubspotContactForm />
     
             </motion.div>
 
