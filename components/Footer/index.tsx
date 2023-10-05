@@ -72,7 +72,7 @@ const Footer = () => {
                   viewport={{ once: true }}
                   className="animate_top"
                 >
-                  <h4 className="font-medium text-black dark:text-white text-itemtitle2 mb-9">
+                  <h4 className="font-medium text-black dark:text-white text-itemtitle2 mb-1">
                     About
                   </h4>
 
@@ -80,11 +80,23 @@ const Footer = () => {
                    
                     <li>
                       <a
+<<<<<<< HEAD
+=======
+                        href="/why"
+                        className="inline-block hover:text-primary mb-3"
+                      >
+                        Why VNOC
+                      </a>
+                    </li>
+                    <li>
+                      <a
+>>>>>>> 5822666deff64a7ae8f5f82b5706272ac10ba1b8
                         href="#features"
                         className="inline-block hover:text-primary mb-3"
                       >
                         Features
                       </a>
+<<<<<<< HEAD
                     </li>
                    
                     <li>
@@ -96,6 +108,25 @@ const Footer = () => {
                       </a>
                     </li>
                    
+=======
+                    </li>                    
+                    <li>
+                      <a
+                        href="/blog"
+                        className="inline-block hover:text-primary mb-3"
+                      >
+                        Blog
+                      </a>
+                    </li>  
+                    <li>
+                      <a
+                        href="#"
+                        className="inline-block hover:text-primary mb-3"
+                      >
+                        Documentations
+                      </a>
+                    </li>                                      
+>>>>>>> 5822666deff64a7ae8f5f82b5706272ac10ba1b8
                   </ul>
                 </motion.div>
 
@@ -117,37 +148,50 @@ const Footer = () => {
                   viewport={{ once: true }}
                   className="animate_top"
                 >
-                  <h4 className="font-medium text-black dark:text-white text-itemtitle2 mb-9">
-                    Community
+                  <h4 className="font-medium text-black dark:text-white text-itemtitle2 mb-1">
+                    Solutions
                   </h4>
 
                   <ul>
                     <li>
                       <a
+<<<<<<< HEAD
                         href="/contact"
+=======
+                        href="https://domaindirectory.com/servicepage/?domain=vnoc.com" target="_blank"
+>>>>>>> 5822666deff64a7ae8f5f82b5706272ac10ba1b8
                         className="inline-block hover:text-primary mb-3"
                       >
-                        Contact Us
+                        Build
                       </a>
                     </li>
                     <li>
                       <a
+<<<<<<< HEAD
                         href="/webinar"
+=======
+                        href="https://domaindirectory.com/servicepage/?domain=vnoc.com" target="_blank"
+>>>>>>> 5822666deff64a7ae8f5f82b5706272ac10ba1b8
                         className="inline-block hover:text-primary mb-3"
                       >
-                        Webinar
+                        Invest
                       </a>
                     </li>
                     <li>
                       <a
+<<<<<<< HEAD
                         href="https://contrib.com"
+=======
+                        href="https://domaindirectory.com/servicepage/?domain=vnoc.com" target="_blank"
+>>>>>>> 5822666deff64a7ae8f5f82b5706272ac10ba1b8
                         className="inline-block hover:text-primary mb-3"
                       >
-                        Contrib Network
+                        Manage
                       </a>
                     </li>
                     <li>
                       <a
+<<<<<<< HEAD
                         href="/contact"
                         className="inline-block hover:text-primary mb-3"
                       >
@@ -217,9 +261,72 @@ const Footer = () => {
                         className="inline-block hover:text-primary mb-3"
                       >
                         For TLD Owners
+=======
+                        href="https://domaindirectory.com/servicepage/?domain=vnoc.com" target="_blank"
+                        className="inline-block hover:text-primary mb-3"
+                      >
+                        Monetize
+>>>>>>> 5822666deff64a7ae8f5f82b5706272ac10ba1b8
                       </a>
                     </li>
                   </ul>                  
+                </motion.div>
+
+                <motion.div
+                  variants={{
+                    hidden: {
+                      opacity: 0,
+                      y: -20,
+                    },
+
+                    visible: {
+                      opacity: 1,
+                      y: 0,
+                    },
+                  }}
+                  initial="hidden"
+                  whileInView="visible"
+                  transition={{ duration: 1, delay: 0.1 }}
+                  viewport={{ once: true }}
+                  className="animate_top"
+                >
+                  <h4 className="font-medium text-black dark:text-white text-itemtitle2 mb-1">
+                    Company
+                  </h4>
+                  <ul>  
+                  <li>
+                      <a
+                        href="/contribution"
+                        className="inline-block hover:text-primary mb-3"
+                      >
+                        Contrib network
+                      </a>
+                    </li> 
+                    <li>
+                      <a
+                        href="/our_story"
+                        className="inline-block hover:text-primary mb-3"
+                      >
+                        Our Story
+                      </a>
+                    </li>                   
+                    <li>
+                      <a
+                        href="/our_team"
+                        className="inline-block hover:text-primary mb-3"
+                      >
+                        Our Team
+                      </a>
+                    </li>                    
+                    <li>
+                      <a
+                        href="https://apply.vnoc.com/" target="_blank"
+                        className="inline-block hover:text-primary mb-3"
+                      >
+                        Partner With Us
+                      </a>
+                    </li>
+                  </ul>              
                 </motion.div>
               </div>
             </div>
