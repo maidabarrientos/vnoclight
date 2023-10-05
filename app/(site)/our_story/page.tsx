@@ -52,6 +52,7 @@ export default function OurstoryPage() {
               </p>
             <h2 className="mt-16 text-2xl font-bold tracking-tight text-gray-900">
             A Seamless Integration of Technology
+            
             </h2>
             <p>
             What sets VNOC.com apart is our seamless integration of blockchain tools, advanced data management capabilities, and a thriving Contrib network. 
