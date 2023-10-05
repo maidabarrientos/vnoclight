@@ -59,6 +59,7 @@ const Contact = () => {
                 Send a message
               </h2>
               <HubspotContactForm />
+              
     
             </motion.div>
 
