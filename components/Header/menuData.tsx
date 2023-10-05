@@ -91,21 +91,13 @@ const menuData: Menu[] = [
         id: 35,
         title: "Support",
         newTab: false,
-<<<<<<< HEAD
         path: "https://vnoc.tawk.help",
-=======
-        path: "/support",
->>>>>>> 5822666deff64a7ae8f5f82b5706272ac10ba1b8
       },
       {
         id: 35.1,
         title: "Partner with Us",
         newTab: false,
-<<<<<<< HEAD
-        path: "https://domaindirectory.com/servicepage/?domain=vnoc.com",
-=======
         path: "https://apply.vnoc.com/",
->>>>>>> 5822666deff64a7ae8f5f82b5706272ac10ba1b8
       },      
     ],
   },

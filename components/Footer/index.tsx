@@ -80,23 +80,11 @@ const Footer = () => {
                    
                     <li>
                       <a
-<<<<<<< HEAD
-=======
-                        href="/why"
-                        className="inline-block hover:text-primary mb-3"
-                      >
-                        Why VNOC
-                      </a>
-                    </li>
-                    <li>
-                      <a
->>>>>>> 5822666deff64a7ae8f5f82b5706272ac10ba1b8
                         href="#features"
                         className="inline-block hover:text-primary mb-3"
                       >
                         Features
                       </a>
-<<<<<<< HEAD
                     </li>
                    
                     <li>
@@ -108,25 +96,6 @@ const Footer = () => {
                       </a>
                     </li>
                    
-=======
-                    </li>                    
-                    <li>
-                      <a
-                        href="/blog"
-                        className="inline-block hover:text-primary mb-3"
-                      >
-                        Blog
-                      </a>
-                    </li>  
-                    <li>
-                      <a
-                        href="#"
-                        className="inline-block hover:text-primary mb-3"
-                      >
-                        Documentations
-                      </a>
-                    </li>                                      
->>>>>>> 5822666deff64a7ae8f5f82b5706272ac10ba1b8
                   </ul>
                 </motion.div>
 
@@ -155,11 +124,7 @@ const Footer = () => {
                   <ul>
                     <li>
                       <a
-<<<<<<< HEAD
                         href="/contact"
-=======
-                        href="https://domaindirectory.com/servicepage/?domain=vnoc.com" target="_blank"
->>>>>>> 5822666deff64a7ae8f5f82b5706272ac10ba1b8
                         className="inline-block hover:text-primary mb-3"
                       >
                         Build
@@ -167,37 +132,21 @@ const Footer = () => {
                     </li>
                     <li>
                       <a
-<<<<<<< HEAD
                         href="/webinar"
-=======
-                        href="https://domaindirectory.com/servicepage/?domain=vnoc.com" target="_blank"
->>>>>>> 5822666deff64a7ae8f5f82b5706272ac10ba1b8
                         className="inline-block hover:text-primary mb-3"
                       >
-                        Invest
+                        Webinar
                       </a>
                     </li>
                     <li>
                       <a
-<<<<<<< HEAD
                         href="https://contrib.com"
-=======
-                        href="https://domaindirectory.com/servicepage/?domain=vnoc.com" target="_blank"
->>>>>>> 5822666deff64a7ae8f5f82b5706272ac10ba1b8
                         className="inline-block hover:text-primary mb-3"
                       >
                         Manage
                       </a>
                     </li>
-                    <li>
-                      <a
-<<<<<<< HEAD
-                        href="/contact"
-                        className="inline-block hover:text-primary mb-3"
-                      >
-                        Social Media
-                      </a>
-                    </li>
+                   
                   </ul>
                 </motion.div>
 
@@ -261,12 +210,6 @@ const Footer = () => {
                         className="inline-block hover:text-primary mb-3"
                       >
                         For TLD Owners
-=======
-                        href="https://domaindirectory.com/servicepage/?domain=vnoc.com" target="_blank"
-                        className="inline-block hover:text-primary mb-3"
-                      >
-                        Monetize
->>>>>>> 5822666deff64a7ae8f5f82b5706272ac10ba1b8
                       </a>
                     </li>
                   </ul>                  
@@ -310,14 +253,7 @@ const Footer = () => {
                         Our Story
                       </a>
                     </li>                   
-                    <li>
-                      <a
-                        href="/our_team"
-                        className="inline-block hover:text-primary mb-3"
-                      >
-                        Our Team
-                      </a>
-                    </li>                    
+                                      
                     <li>
                       <a
                         href="https://apply.vnoc.com/" target="_blank"
