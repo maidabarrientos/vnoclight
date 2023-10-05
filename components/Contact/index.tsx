@@ -95,17 +95,10 @@ const Contact = () => {
                   Email Address
                 </h4>
                 <p>
-                  <a href="#">admin@vnoc.com</a>
+                  <a href="mailto">admin@vnoc.com</a>
                 </p>
               </div>
-              <div>
-                <h4 className="font-medium text-black dark:text-white text-metatitle3 mb-4">
-                  Phone Number
-                </h4>
-                <p>
-                  <a href="#">1(786)305-4780</a>
-                </p>
-              </div>
+              
             </motion.div>
           </div>
         </div>
