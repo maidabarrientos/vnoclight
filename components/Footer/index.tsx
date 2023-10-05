@@ -256,7 +256,7 @@ const Footer = () => {
                                       
                     <li>
                       <a
-                        href="https://apply.vnoc.com/" target="_blank"
+                        href="https://domaindirectory.com/servicepage/?domain=vnoc.com" target="_blank"
                         className="inline-block hover:text-primary mb-3"
                       >
                         Partner With Us
