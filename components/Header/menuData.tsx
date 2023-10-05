@@ -75,29 +75,29 @@ const menuData: Menu[] = [
     newTab: false,
     submenu: [
       {
-        id: 31,
+        id: 41,
         title: "Our Story",
         newTab: false,
         path: "/our_story",
       },
      
       {
-        id: 35,
+        id: 42,
         title: "Blog",
         newTab: false,
         path: "https://about.vnoc.com",
       },
       {
-        id: 35,
+        id: 43,
         title: "Support",
         newTab: false,
         path: "https://vnoc.tawk.help",
       },
       {
-        id: 35.1,
+        id: 44,
         title: "Partner with Us",
         newTab: false,
-        path: "https://apply.vnoc.com/",
+        path: "https://domaindirectory.com/servicepage/?domain=vnoc.com",
       },      
     ],
   },
