@@ -11,16 +11,18 @@ import FAQ from "@/components/FAQ";
 
 import Testimonial from "@/components/Testimonial";
 
+
 export const metadata: Metadata = {
   title: "The Leading Blockchain Venture Platform for Digital Assets",
   description: "Your Next Gen Digital Asset Platform"
-  // other metadata
+  
 };
 
 
 export default function Home() {
   return (
     <main>
+      
       <Hero />
       <Brands />
       <Feature />

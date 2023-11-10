@@ -1,6 +1,6 @@
 "use client";
-
 import Header from "@/components/Header";
+import Script from "next/script";
 import Footer from "@/components/Footer";
 import Lines from "@/components/Lines";
 import ScrollToTop from "@/components/ScrollToTop";
@@ -18,7 +18,21 @@ export default function RootLayout({
 }) {
   return (
     <html lang="eng">
+          <Script
+          async
+          src="https://www.googletagmanager.com/gtag/js?id=G-M6ZLWK2ZQ0"
+        />
+        <Script>
+          {`
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-M6ZLWK2ZQ0');
+          `}
+        </Script>
       <body className={`dark:bg-black`}>
+   
+
         <ThemeProvider
           enableSystem={false}
           attribute="class"
