@@ -1,40 +1,55 @@
-# VNOC
-## Installation :::
+<h1 align="center" id="title">VNOC</h1>
 
-Here are the steps you need to follow to install the dependencies.
+<p align="center"><img src="https://www.vnoc.com/_next/image?url=%2Fimages%2Fhero%2Fvnoc-dboard1.png&amp;w=1920&amp;q=75" alt="project-image"></p>
 
-1.Download and extract the template from **Next.js Templates.**
+<p id="description">Welcome to VNOC – the cutting-edge platform and network that harnesses the power of blockchain technology premium URL's innovative business models (eCorp) and connected networks (Contrib) to empower you to build manage and monetize your digital assets like never before.</p>
 
-2.**cd** into the template directory then run this command to install all the dependencies
-    
-```bash
-    npm install
+<h2>🚀 Demo</h2>
+
+[https://www.youtube.com/watch?v=1WD69KDqaTE](https://www.youtube.com/watch?v=1WD69KDqaTE)
+
+<h2>Project Screenshots:</h2>
+
+<img src="https://www.vnoc.com/_next/image?url=%2Fimages%2Fhero%2Fvnboard_image3.png&amp;w=1920&amp;q=75" alt="project-screenshot" width="400" height="400/">
+
+<img src="https://www.vnoc.com/_next/image?url=%2Fimages%2Fhero%2Fvnboard_image4.png&amp;w=1920&amp;q=75" alt="project-screenshot" width="400" height="400/">
+
+<img src="https://www.vnoc.com/_next/image?url=%2Fimages%2Fhero%2Fvnboard_image6.png&amp;w=1920&amp;q=75" alt="project-screenshot" width="400" height="400/">
+
+<img src="https://www.vnoc.com/_next/image?url=%2Fimages%2Fhero%2Fvnboard_image8.png&amp;w=1920&amp;q=75" alt="project-screenshot" width="400" height="400/">
+
+  
+  
+<h2>🧐 Features</h2>
+
+Here're some of the project's best features:
+
+*   Nurture Your Brand
+*   Monetize with Flexibility
+*   Find Talent Build Brilliance
+*   Companies: Simplify Management
+*   Blockchain Empowerment
+*   Streamlined Communication
+*   Master Vertical Management
+*   Unleash Network Effects
+*   Social Impact Simplified
+*   Blockchain Management
+*   Flexible Stack
+
+<h2>🛠️ Installation Steps:</h2>
+
+<p>1. Apply as Partner</p>
+
 ```
-    
-or
-    
-```bash
-    yarn install
- ```
+https://apply.vnoc.com/
+```
 
+<p>2. Apply as Developer</p>
 
-You can start the project on the local server
-    
-```bash
-    npm run dev
- ```
+```
+https://developers.contrib.com
+```
 
-It’ll start the template on [localhost:3000](http://localhost:3000). 
+<h2>🍰 Contribution Guidelines:</h2>
 
-The documentation includes all the guides you need for the integrations. 
-
-
-### Deploying on PaaS
-
-If you are using a GitHub repo then you can go with free-of-cost and easy-to-use options like [Vercel](https://vercel.com/), or [Netlify](https://netlify.com/) they offer decent-free tiers for Next.js hosting.
-
-
-### 💜 Support
-If you like the template, please star this repository to inspire the team to create more stuff like this and reach more users like you!
-
-
+Why Contribute to VNOC.com? \*Influence Development: Shape the features and functionalities of VNOC.com. \*Skill Enhancement: Hone your skills by working on real-world projects with experienced developers. \*Community Recognition: Gain visibility in the developer community and build a strong network.
