@@ -36,7 +36,7 @@
     "**/*.ts",
     "**/*.tsx",
     ".next/types/**/*.ts"
-  ],
+, "components/Forms/verticalscript.tsx"  ],
   "exclude": [
     "node_modules"
   ]

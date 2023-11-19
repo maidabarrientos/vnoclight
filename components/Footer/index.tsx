@@ -95,6 +95,23 @@ const Footer = () => {
                         Blog
                       </a>
                     </li>
+                    <li>
+                      <a
+                        href="https://vnoc.tawk.help"
+                        className="inline-block hover:text-primary mb-3"
+                      >
+                        Knowledgebase
+                      </a>
+                    </li>
+                    <li>
+                      <a
+                        href="/verticals"
+                        className="inline-block hover:text-primary mb-3"
+                      >
+                        Verticals
+                      </a>
+                    </li>
+                    
                    
                   </ul>
                 </motion.div>
@@ -124,7 +141,7 @@ const Footer = () => {
                   <ul>
                     <li>
                       <a
-                        href="/contact"
+                        href="/build"
                         className="inline-block hover:text-primary mb-3"
                       >
                         Build
@@ -132,18 +149,26 @@ const Footer = () => {
                     </li>
                     <li>
                       <a
-                        href="/webinar"
+                        href="/sell"
                         className="inline-block hover:text-primary mb-3"
                       >
-                        Webinar
+                        Sell
                       </a>
                     </li>
                     <li>
                       <a
-                        href="https://contrib.com"
+                        href="/partner"
                         className="inline-block hover:text-primary mb-3"
                       >
-                        Manage
+                        Partner
+                      </a>
+                    </li>
+                    <li>
+                      <a
+                        href="/lease"
+                        className="inline-block hover:text-primary mb-3"
+                      >
+                        Lease
                       </a>
                     </li>
                    
@@ -168,7 +193,7 @@ const Footer = () => {
                   viewport={{ once: true }}
                   className="animate_top"
                 >
-                  <h4 className="font-medium text-black dark:text-white text-itemtitle2 mb-9">
+                  <h4 className="font-medium text-black dark:text-white text-itemtitle2 mb-2">
                     Use Cases
                   </h4>
                   <ul>
@@ -260,6 +285,14 @@ const Footer = () => {
                         className="inline-block hover:text-primary mb-3"
                       >
                         Partner With Us
+                      </a>
+                    </li>
+                    <li>
+                      <a
+                        href="/support" target="_blank"
+                        className="inline-block hover:text-primary mb-3"
+                      >
+                        Contact Us
                       </a>
                     </li>
                   </ul>              
