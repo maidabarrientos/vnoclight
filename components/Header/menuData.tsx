@@ -66,6 +66,12 @@ const menuData: Menu[] = [
         newTab: false,
         path: "/blockchain",
       },
+      {
+        id: 37,
+        title: "Our Verticals",
+        newTab: false,
+        path: "/verticals",
+      },
     ],
   },
 
