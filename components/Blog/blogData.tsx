@@ -18,9 +18,9 @@ const BlogData: Blog[] = [
   {
     _id: 2,
     mainImage: "/images/blog/blog-03.png",
-    title: "The eCorp Business Model: Pioneering Flexibility and Innovation",
+    title: "The eCorp&trade;&trade; Business Model: Pioneering Flexibility and Innovation",
     metadata:
-      "Traditional business models often come with limitations that can stifle growth and adaptability. VNOC's eCorp business model shatters these limitations, offering unprecedented flexibility and innovation. This revolutionary approach empowers users to explore diverse avenues for monetization and expansion, ensuring that your business strategies can evolve alongside changing market dynamics. With eCorp, your business can remain agile, adjusting to new opportunities while maintaining a competitive edge.",
+      "Traditional business models often come with limitations that can stifle growth and adaptability. VNOC's eCorp&trade; business model shatters these limitations, offering unprecedented flexibility and innovation. This revolutionary approach empowers users to explore diverse avenues for monetization and expansion, ensuring that your business strategies can evolve alongside changing market dynamics. With eCorp&trade;, your business can remain agile, adjusting to new opportunities while maintaining a competitive edge.",
   },
   { 
     _id: 1,
@@ -34,7 +34,7 @@ const BlogData: Blog[] = [
     mainImage: "/images/blog/blog-04.png",
     title: "Conclusion: Embrace the Future with VNOC",
     metadata:
-      "In the ever-evolving digital landscape, VNOC stands as a beacon of innovation, offering a holistic solution for digital asset management and monetization. With blockchain technology providing unmatched security, premium URL's enhancing brand identity, the eCorp business model fostering adaptability, and the Contrib network fostering collaboration, VNOC paves the way for individuals and businesses to thrive in the digital age.",
+      "In the ever-evolving digital landscape, VNOC stands as a beacon of innovation, offering a holistic solution for digital asset management and monetization. With blockchain technology providing unmatched security, premium URL's enhancing brand identity, the eCorp&trade; business model fostering adaptability, and the Contrib network fostering collaboration, VNOC paves the way for individuals and businesses to thrive in the digital age.",
   },
   {
     _id: 2,

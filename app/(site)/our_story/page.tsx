@@ -11,7 +11,7 @@ export default function OurstoryPage() {
               <p className="text-base font-semibold leading-7 text-indigo-300">Our Story: The Company Behind VNOC</p>
               <h1 className="mt-2 text-3xl font-bold tracking-tight sm:text-4xl">Shaping the Future of Digital Ventures</h1>
               <p className="mt-6 text-xl leading-8 text-indigo-200">
-              eCorp, the powerhouse behind VNOC, has been at the forefront of digital innovation since its inception in [Insert Year]. With a steadfast commitment to transforming the digital landscape, eCorp and VNOC share a vision of empowering businesses and individuals to fully leverage their digital potential.
+              eCorp&trade;&trade;, the powerhouse behind VNOC, has been at the forefront of digital innovation since its inception in [Insert Year]. With a steadfast commitment to transforming the digital landscape, eCorp&trade; and VNOC share a vision of empowering businesses and individuals to fully leverage their digital potential.
               </p>
             </div>
               <div className="flex space-x-4">
@@ -53,7 +53,7 @@ export default function OurstoryPage() {
             
             </h2>
             <p>
-            What distinctly sets us apart is our seamless integration of technology and community. At eCorp and VNOC:
+            What distinctly sets us apart is our seamless integration of technology and community. At eCorp&trade; and VNOC:
             </p>
             <ul>
               <li className='list-disc mt-2 mb-1 ml-4'>

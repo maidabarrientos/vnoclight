@@ -354,7 +354,7 @@ const Footer = () => {
               viewport={{ once: true }}
               className="animate_top"
             >
-              <p>&copy; 2024 Vnoc.com. All rights reserved | <a href="https://ecorp.com" className="hover:text-primaryho"> Proudly eCorp&trade; Made</a>
+              <p>&copy; 2024 Vnoc.com. All rights reserved | <a href="https://eCorp&trade;.com" className="hover:text-primaryho"> Proudly eCorp&trade;&trade; Made</a>
 </p>
             </motion.div>
 

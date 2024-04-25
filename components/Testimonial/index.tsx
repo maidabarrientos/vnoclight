@@ -22,7 +22,7 @@ const Testimonial = () => {
               headerInfo={{
                 title: `TESTIMONIALS`,
                 subtitle: `Client’s Testimonials`,
-                description: `VNOC – the cutting-edge platform and network that harnesses the power of blockchain technology, premium URL's, innovative business models (eCorp), and connected networks (Contrib) to empower you to build, manage, and monetize your digital assets like never before.`,
+                description: `VNOC – the cutting-edge platform and network that harnesses the power of blockchain technology, premium URL's, innovative business models (eCorp&trade;), and connected networks (Contrib) to empower you to build, manage, and monetize your digital assets like never before.`,
               }}
             />
           </div>
@@ -91,7 +91,7 @@ const Testimonial = () => {
                   </div>
 
                   <p>
-                  I am thrilled to share my experience with VNOC, a truly cutting-edge platform that has completely transformed the way I manage and monetize my digital assets. From the moment I started using VNOC, I was captivated by its innovative approach, leveraging the power of blockchain technology, premium URL's, the revolutionary eCorp business model, and the interconnected networks through Contrib.
+                  I am thrilled to share my experience with VNOC, a truly cutting-edge platform that has completely transformed the way I manage and monetize my digital assets. From the moment I started using VNOC, I was captivated by its innovative approach, leveraging the power of blockchain technology, premium URL's, the revolutionary eCorp&trade; business model, and the interconnected networks through Contrib.
                   </p>
                 </div>
               </SwiperSlide>
