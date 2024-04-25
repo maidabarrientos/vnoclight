@@ -8,11 +8,10 @@ export default function OurstoryPage() {
         <div className="lg:col-span-2 lg:col-start-1 lg:row-start-1 lg:mx-auto lg:grid lg:w-full lg:max-w-7xl lg:grid-cols-2 lg:gap-x-8 lg:px-8">
           <div className="lg:pr-4 space-y-6">
             <div className="text-center lg:text-left lg:max-w-lg">
-              <p className="text-base font-semibold leading-7 text-indigo-300">Our Story</p>
+              <p className="text-base font-semibold leading-7 text-indigo-300">Our Story: The Company Behind VNOC</p>
               <h1 className="mt-2 text-3xl font-bold tracking-tight sm:text-4xl">Shaping the Future of Digital Ventures</h1>
               <p className="mt-6 text-xl leading-8 text-indigo-200">
-             At VNOC.com, we believe in the power of innovation, collaboration, and technology to transform the digital landscape. 
-              Our journey began with a simple yet ambitious goal: to create a platform that empowers individuals and businesses to unlock the full potential of their digital ventures.
+              eCorp, the powerhouse behind VNOC, has been at the forefront of digital innovation since its inception in [Insert Year]. With a steadfast commitment to transforming the digital landscape, eCorp and VNOC share a vision of empowering businesses and individuals to fully leverage their digital potential.
               </p>
             </div>
               <div className="flex space-x-4">
@@ -47,26 +46,27 @@ export default function OurstoryPage() {
             <h2 className="mt-16 text-2xl font-bold tracking-tight text-gray-900">Our Mission</h2>
              
               <p>
-              Our mission is clear: to provide the tools, resources, and community support needed to thrive in the digital age. We are committed to democratizing access to 
-              cutting-edge technology and knowledge, ensuring that everyone can participate in the digital revolution.
+              Our mission is unwavering: to equip our users with the tools, resources, and community support needed to flourish in the digital era. We are dedicated to democratizing access to state-of-the-art technologies and insights, ensuring that every participant, from startups to established enterprises, can thrive in the evolving digital revolution.
               </p>
             <h2 className="mt-16 text-2xl font-bold tracking-tight text-gray-900">
             A Seamless Integration of Technology
             
             </h2>
             <p>
-            What sets VNOC.com apart is our seamless integration of blockchain tools, advanced data management capabilities, and a thriving Contrib network. 
-            These elements work in harmony to help you create, grow, and profit from your digital ventures.
-
+            What distinctly sets us apart is our seamless integration of technology and community. At eCorp and VNOC:
             </p>
-            <h2 className="mt-16 text-2xl font-bold tracking-tight text-gray-900">
-            A Seamless Integration of Technology
-            </h2>
-            <p>
-            What sets VNOC.com apart is our seamless integration of blockchain tools, advanced data management capabilities, and a thriving Contrib network. 
-            These elements work in harmony to help you create, grow, and profit from your digital ventures.
-
-            </p>
+            <ul>
+              <li className='list-disc mt-2 mb-1 ml-4'>
+              <b>Blockchain Innovation:</b> We leverage cutting-edge blockchain technology to ensure secure and transparent digital transactions.
+              </li>
+              <li className='list-disc mt-2 mb-1 ml-4'>
+                <b>Advanced Data Management: </b>Our sophisticated data management tools provide the backbone for robust digital ventures, enhancing operational efficiency and strategic insights.
+              </li>
+              <li className='list-disc mt-2 mb-1 ml-4'>
+                <b>Contrib Network:</b> A thriving ecosystem that fosters collaboration and growth, the Contrib network is integral to our platform, uniting a global community of innovators.
+              </li>
+            </ul>
+   
             <h2 className="mt-16 text-2xl font-bold tracking-tight text-gray-900">
             Our Vision
             </h2>
@@ -75,14 +75,16 @@ export default function OurstoryPage() {
             to the digital ecosystem. We envision a future where creativity, innovation, and entrepreneurship are within reach of all, irrespective of their background or expertise.
 
             </p>
-            <h2 className="mt-16 text-2xl font-bold tracking-tight text-gray-900">
-            Join the VNOC.com Community Today
+
+            <h2 className="mt-15 text-2xl font-bold tracking-tight text-gray-900">
+            <a href="https://apply.vnoc.com/" className='text-red-300 underline'>Join the VNOC.com Community Today</a>
             </h2>
-            <p>
+            <p className='mb-2'>
             Whether you're a digital creative, domain expert, entrepreneur, developer, or TLD owner, 
             VNOC.com is your platform for success. We invite you to join our community of forward-thinkers who are shaping tomorrow's digital world.
 
             </p>
+            
 
             <h2 className="mt-16 text-2xl font-bold tracking-tight text-gray-900">
             Contact Us
