@@ -4,7 +4,7 @@
   <img src="https://www.vnoc.com/_next/image?url=%2Fimages%2Fhero%2Fvnoc-dboard1.png&w=1920&q=75" alt="project-image"/>
 </div>
 
-Welcome to VNOC – the cutting-edge platform and network that harnesses the power of blockchain technology premium URL's innovative business models (eCorp&trade;) and connected networks (Contrib) to empower you to build manage and monetize your digital assets like never before.
+Welcome to VNOC – the cutting-edge platform and network that harnesses the power of blockchain technology premium URL's innovative business models (Ecorp®) and connected networks (Contrib) to empower you to build manage and monetize your digital assets like never before.
 
 ## 🚀 Demo
 
