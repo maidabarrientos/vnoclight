@@ -18,7 +18,7 @@ const BlogData: Blog[] = [
   {
     _id: 2,
     mainImage: "/images/blog/blog-03.png",
-    title: "The Ecorp®&trade; Business Model: Pioneering Flexibility and Innovation",
+    title: "The Ecorp® Business Model: Pioneering Flexibility and Innovation",
     metadata:
       "Traditional business models often come with limitations that can stifle growth and adaptability. VNOC's Ecorp® business model shatters these limitations, offering unprecedented flexibility and innovation. This revolutionary approach empowers users to explore diverse avenues for monetization and expansion, ensuring that your business strategies can evolve alongside changing market dynamics. With Ecorp®, your business can remain agile, adjusting to new opportunities while maintaining a competitive edge.",
   },
