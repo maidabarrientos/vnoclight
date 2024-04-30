@@ -39,14 +39,14 @@ const Header = () => {
         <div className="w-full lg:w-1/4 flex items-center justify-between">
           <a href="/">
             <Image
-              src="/images/logo/logo-light.png"
+              src="/images/logo/logo-vnoc-with-ecorp-fordark.svg"
               alt="VNOC"
               width={119.03}
               height={30}
               className="w-full hidden dark:block"
             />
             <Image
-              src="/images/logo/logo-light.png"
+              src="/images/logo/logo-vnoc-with-ecorp-forwhite.svg"
               alt="VNOC"
               width={119.03}
               height={30}
