@@ -9,71 +9,38 @@ const menuData: Menu[] = [
   },
   {
     id: 2,
-    title: "Features",
-    newTab: false,
-    path: "/#features"
-  },  
-  {
-    id: 2.1,
-    title: "Use Cases",
-    newTab: false,
-    path: "/use_cases"
-  },
-  {
-    id: 2.2,
-    title: "Why VNOC",
-    newTab: false,
-    path: "/why"
-  },
-  {
-    id: 3,
-    title: "Solutions",
+    title: "About",
     newTab: false,
     submenu: [
       {
-        id: 31,
-        title: "Build",
+        id: 21,
+        title: "Features",
         newTab: false,
-        path: "/build",
+        path: "/#build",
       },
       {
-        id: 34,
-        title: "Sell",
+        id: 22,
+        title: "Use Cases",
         newTab: false,
-        path: "/sell",
+        path: "/use_cases",
       },
       {
-        id: 35,
-        title: "Partner",
+        id: 23,
+        title: "Why VNOC",
         newTab: false,
-        path: "/partner",
+        path: "/why",
       },
-      {
-        id: 35,
-        title: "Lease",
-        newTab: false,
-        path: "/lease",
-      },
-      {
-        id: 35.1,
-        title: "Contribution Network",
-        newTab: false,
-        path: "/contribution",
-      },
-      {
-        id: 36,
-        title: "Blockchain Assets",
-        newTab: false,
-        path: "/blockchain",
-      },
-      {
-        id: 37,
-        title: "Our Verticals",
-        newTab: false,
-        path: "/verticals",
-      },
+      
     ],
   },
+  
+  {
+    id: 3,
+    title: "Pricing",
+    newTab: true,
+    path: "https://vnoc.co"
+  },
+
 
   {
     id: 4,
