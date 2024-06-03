@@ -38,7 +38,7 @@ const menuData: Menu[] = [
     id: 3,
     title: "Pricing",
     newTab: true,
-    path: "https://vnoc.co"
+    path: "https://services.vnoc.com"
   },
 
 
