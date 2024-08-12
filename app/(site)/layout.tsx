@@ -18,6 +18,13 @@ export default function RootLayout({
 }) {
   return (
     <html lang="eng">
+             <Script 
+            async
+            id="referral-script"
+            src="https://www.referrals.com/extension/widget.js?key=100"
+            type="text/javascript">
+              
+            </Script>
           <Script
           async
           src="https://www.googletagmanager.com/gtag/js?id=G-M6ZLWK2ZQ0"
