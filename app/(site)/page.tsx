@@ -8,21 +8,17 @@ import FunFact from "@/components/FunFact";
 import Integration from "@/components/Integration";
 import CTA from "@/components/CTA";
 import FAQ from "@/components/FAQ";
-
 import Testimonial from "@/components/Testimonial";
-
+import LatestProjects from "@/components/LatestProjects";
 
 export const metadata: Metadata = {
   title: "The Leading Blockchain Venture Platform for Digital Assets",
-  description: "Your Next Gen Digital Asset Platform"
-  
+  description: "Your Next Gen Digital Asset Platform",
 };
-
 
 export default function Home() {
   return (
     <main>
-      
       <Hero />
       <Brands />
       <Feature />
@@ -32,8 +28,8 @@ export default function Home() {
       <Integration />
       <CTA />
       <FAQ />
+      <LatestProjects />
       <Testimonial />
- 
     </main>
   );
 }
