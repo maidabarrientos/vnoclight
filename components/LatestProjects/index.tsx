@@ -15,9 +15,11 @@ const LatestProjects = () => {
   return (
     <section className="py-20 px-4 md:px-8 xl:px-0 max-w-screen-xl mx-auto">
       <div className="text-center mb-12">
-        <h4 className="uppercase text-primary font-medium">
-          {latestProjects.subtitle}
-        </h4>
+        <div className="bg-zumthor dark:bg-blacksection dark:border dark:border-strokedark inline-block rounded-full py-1.5 px-4.5 mb-4">
+          <h4 className="font-medium text-sectiontitle text-black dark:text-white">
+            {latestProjects.subtitle}
+          </h4>
+        </div>
         <h2 className="text-3xl md:text-4xl font-bold text-black dark:text-white mt-2">
           {latestProjects.title}
         </h2>
