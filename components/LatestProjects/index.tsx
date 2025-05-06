@@ -10,6 +10,7 @@ import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
 import { Autoplay, Navigation, Pagination } from "swiper";
+import "./projects.css";
 
 const LatestProjects = () => {
   return (
@@ -53,8 +54,8 @@ const LatestProjects = () => {
                   className="object-cover"
                 />
               </div>
-              <div className="p-5">
-                <div className="flex items-center gap-3 mb-3">
+              <div className="p-4">
+                <div className="flex items-center gap-3 mb-2 project-category">
                   <span className="text-sm font-medium text-gray-500 dark:text-gray-400">
                     {project.category}
                   </span>
@@ -69,7 +70,7 @@ const LatestProjects = () => {
                   href={project.link}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="inline-block mt-4 text-primary hover:underline text-sm font-medium"
+                  className="inline-block mt-2 text-primary hover:underline text-sm font-medium"
                 >
                   Visit Project →
                 </Link>

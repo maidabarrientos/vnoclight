@@ -14,7 +14,7 @@ export const latestProjects = {
         link: "https://www.dntrademark.com"
       },
       {
-        title: "The DAO Platform For Your Digital Assets",
+        title: "Realty DAO",
         image: "images/photo/screenshot-realty-dao.png",
         logo: "img/partners/8.png",
         speakers: [{ image: "img/partners/8.png", alt: "Realtydao" }],
@@ -23,11 +23,11 @@ export const latestProjects = {
         link: "https://www.realtydao.com"
       },
       {
-        title: "Transparent Contribution Platform on the Blockchain",
+        title: "Contrib",
         image: "images/photo/screenshot-contrib.png",
         logo: "img/partners/6.png",
         speakers: [{ image: "img/partners/6.png", alt: "Contrib" }],
-        description: "Join a community of Entrepreneurs, Developers, Designers, Marketers and Specialists from around the world contributing to high growth companies and opportunities. Future of Work is here. Sign up!",
+        description: "Contribute Today and Join a Fast-Growing, Scalable, Interoperable, and Transparent Global Network!",
         category: "Network/Web 3",
         link: "https://contrib.com"
       },
@@ -36,7 +36,7 @@ export const latestProjects = {
         image: "images/photo/screenshot-vnoc.png",
         logo: "img/partners/1.png",
         speakers: [{ image: "img/partners/1.png", alt: "VNOC" }],
-        description: "Build, Sell, Partner, and Co-Own Ventures: Start from scratch or utilize our frameworks to create innovative projects.",
+        description: "Build, Sell, Partner, and Co-Own Ventures",
         category: "SAAS/Web3",
         link: "https://vnoc.com"
       },
@@ -45,7 +45,7 @@ export const latestProjects = {
         image: "images/photo/talentdirect-screenshot.png",
         logo: "img/partners/talentdirect.png",
         speakers: [{ image: "img/partners/talentdirect.png", alt: "Talentdirect" }],
-        description: "Talent Direct Agency (TA#1412) has become a key resource throughout the state of Florida, for placement of talent in TV, Film, Commercial, Print & Lifestyle Photography, Voiceover, Social Media and Youth.",
+        description: "Talent Direct Agency is Florida’s Premier Modeling and Acting Agency",
         category: "Platform",
         link: "https://www.talentdirect.com"
       },
@@ -59,11 +59,11 @@ export const latestProjects = {
         link: "https://www.referrals.com"
       },
       {
-        title: "Automated Liquidity Cap Table Management Tool",
+        title: "eShares",
         image: "images/photo/screenshot-eshares.png",
         logo: "img/partners/7.png",
         speakers: [{ image: "img/partners/7.png", alt: "Eshares" }],
-        description: "Digital Asset Ownership Management and Marketplace for Technology companies. Join the 1,000's of tech focused companies utilizing eShares.com",
+        description: "Digital Asset Ownership Management and Marketplace for Technology companies.",
         category: "SAAS",
         link: "https://www.eshares.com"
       },      

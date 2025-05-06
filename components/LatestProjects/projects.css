@@ -1,0 +1,9 @@
+.swiper-pagination {
+    display: none;
+}
+.project-category {
+    display: none;
+}
+.swiper-slide {
+    height: 400px;
+}
