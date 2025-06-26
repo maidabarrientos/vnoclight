@@ -138,6 +138,42 @@ export const latestProjects = {
         description: "Trackers, access millions of leads with our advanced AI-driven tracking solution. Get started today and transform your lead management process.",
         category: "AI/Leads",
         link: "https://www.trackers.com/"
+      },
+      {
+        title: "Paynow",
+        image: "images/photo/screenshot-paynow.png",
+        logo: "images/logo-paynow.png",
+        speakers: [{ image: "img/photo/screenshot-paynow.png", alt: "Paynow" }],
+        description: "PayNow enables digital payments outside of the traditional banking system with an efficient, safe payment solution.",
+        category: "Crypto",
+        link: "https://www.paynow.com/"
+      },
+      {
+        title: "Paydirect",
+        image: "images/photo/screenshot-paydirect.png",
+        logo: "images/logo-paydirect.png",
+        speakers: [{ image: "img/photo/screenshot-paydirect.png", alt: "Paydirect" }],
+        description: "Enable seamless, secure, and fast crypto transactions between humans and AI agents.",
+        category: "Crypto",
+        link: "https://www.paydirect.com/"
+      },
+      {
+        title: "Bloodtalk",
+        image: "images/photo/screenshot-bloodtalk.png",
+        logo: "images/logo-bloodtalk.png",
+        speakers: [{ image: "img/photo/screenshot-bloodtalk.png", alt: "Bloodtalk" }],
+        description: "Joining the bone marrow registry is often as simple as a cheek swab. Please encourage your friends to consider signing up.",
+        category: "Social",
+        link: "https://www.bloodtalk.com/"
+      },
+      {
+        title: "Vbot",
+        image: "images/photo/screenshot-vbot.png",
+        logo: "images/logo-vbot.png",
+        speakers: [{ image: "img/photo/screenshot-bloodtalk.png", alt: "Vbot" }],
+        description: "VBOT is the ultimate AI-powered assistant designed to streamline your operations, automate workflows, and provide actionable insights.",
+        category: "Business",
+        link: "https://www.vbot.com/"
       }
     ]
   };
