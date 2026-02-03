@@ -354,7 +354,7 @@ const Footer = () => {
               viewport={{ once: true }}
               className="animate_top"
             >
-              <p>&copy; 2024 Vnoc.com. All rights reserved | <a href="https://Ecorp.com" className="hover:text-primaryho"> Proudly Ecorp® Made</a>
+              <p>&copy; {new Date().getFullYear()} Vnoc.com. All rights reserved | <a href="https://Ecorp.com" className="hover:text-primaryho"> Proudly Ecorp® Made</a>
 </p>
             </motion.div>
 
