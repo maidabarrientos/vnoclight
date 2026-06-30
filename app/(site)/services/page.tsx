@@ -54,6 +54,33 @@ const whySmartEntity = [
   "A documented path from name to live, revenue-generating venture",
 ];
 
+const engagementOptions = [
+  {
+    title: "Partner",
+    description:
+      "Build eServices.com as a joint venture with the VentureOS studio and agent network.",
+    cta: "Start a partnership",
+    href: "/contact",
+    featured: false,
+  },
+  {
+    title: "Invest",
+    description:
+      "Back eServices.com as a venture. Tell us your thesis — we'll send the opportunity details.",
+    cta: "Request invest details",
+    href: "/contact",
+    featured: true,
+  },
+  {
+    title: "Join",
+    description:
+      "Join the eCorp network as a contributor or partner via Contrib.com.",
+    cta: "Join the network",
+    href: "https://contrib.com/",
+    featured: false,
+  },
+];
+
 const networkCards = [
   { name: "eCorp", role: "Registry of record", href: "https://www.ecorp.com/" },
   {
@@ -190,6 +217,41 @@ export default function ServicesPage() {
               </div>
             </div>
           </div>
+        </div>
+      </section>
+
+      <section className="mx-auto max-w-c-1390 px-4 md:px-8 2xl:px-0 pb-10 xl:pb-15">
+        <div className="grid grid-cols-1 gap-7.5 md:grid-cols-3 xl:gap-10">
+          {engagementOptions.map((option, key) => (
+            <div
+              key={key}
+              className={`animate_top flex flex-col rounded-lg p-7.5 xl:p-10 transition-all hover:shadow-solid-4 dark:bg-blacksection bg-white ${
+                option.featured
+                  ? "border-2 border-primary shadow-solid-4"
+                  : "border border-white shadow-solid-3 dark:border-strokedark"
+              }`}
+            >
+              <h3 className="font-semibold text-xl xl:text-itemtitle text-black dark:text-white mb-4">
+                {option.title}
+              </h3>
+              <p className="mb-7.5 flex-1 text-base text-body-color dark:text-body-color-dark">
+                {option.description}
+              </p>
+              <Link
+                href={option.href}
+                {...(option.href.startsWith("http")
+                  ? { target: "_blank", rel: "noopener noreferrer" }
+                  : {})}
+                className={`inline-flex w-fit items-center justify-center rounded-full py-2.5 px-7.5 font-medium duration-300 ease-in-out ${
+                  option.featured
+                    ? "bg-primary text-white hover:bg-primaryho"
+                    : "border border-stroke text-black hover:border-primary hover:text-primary dark:border-strokedark dark:text-white"
+                }`}
+              >
+                {option.cta}
+              </Link>
+            </div>
+          ))}
         </div>
       </section>
 
