@@ -104,8 +104,8 @@ export default function ServicesPage() {
       <section className="mx-auto max-w-c-1390 px-4 md:px-8 2xl:px-0 pt-40 md:pt-45 xl:pt-50 pb-20 xl:pb-25 overflow-hidden">
         <div className="flex lg:items-center lg:gap-8 xl:gap-32.5">
           <div className="md:w-1/2">
-            <h1 className="bg-gradient-to-r from-txtgrad1 to-black bg-clip-text text-transparent text-5xl xl:text-hero font-bold mb-5 pr-16 dark:text-white">
-              Professional Services
+            <h1 className="bg-gradient-to-r from-txtgrad1 to-black bg-clip-text text-transparent text-4xl xl:text-5xl font-bold mb-5 dark:text-white">
+              Professional Services · Smart Entity
             </h1>
             <p className="mb-5">
               The services brand field-service crews can build on — available
@@ -257,31 +257,26 @@ export default function ServicesPage() {
 
       <section className="mx-auto max-w-c-1390 px-4 md:px-8 2xl:px-0 pb-20 xl:pb-25">
         <div className="rounded-lg bg-gradient-to-t from-[#F8F9FF] to-[#DEE7FF] dark:bg-gradient-to-t dark:from-transparent dark:to-transparent dark:bg-blacksection dark:stroke-strokedark py-12.5 px-7.5 md:px-12.5 xl:px-17.5 shadow-solid-8 border border-white dark:border-strokedark">
-          <div className="flex flex-wrap gap-8 md:flex-nowrap md:items-center md:justify-between">
-            <div className="md:w-2/3">
-              <h2 className="mb-4 font-bold text-3xl xl:text-sectiontitle2 text-black dark:text-white">
-                Why an eCorp Smart Entity
-              </h2>
-              <ul className="flex flex-col gap-3">
-                {whySmartEntity.map((item, key) => (
-                  <li
-                    key={key}
-                    className="flex items-start gap-3 text-base text-body-color dark:text-body-color-dark"
-                  >
-                    <span className="mt-1 text-primary">✓</span>
-                    <span>{item}</span>
-                  </li>
-                ))}
-              </ul>
-            </div>
-            <div className="md:w-1/3 md:text-right">
-              <Link
-                href="/contact"
-                className="inline-flex items-center justify-center rounded-full bg-primary py-2.5 px-7.5 font-medium text-white duration-300 ease-in-out hover:bg-primaryho"
-              >
-                Send inquiry
-              </Link>
-            </div>
+          <div className="mx-auto max-w-c-1016 text-center">
+            <h2 className="mb-4 font-bold text-3xl xl:text-sectiontitle2 text-black dark:text-white">
+              Why an eCorp Smart Entity
+            </h2>
+            <p className="mx-auto mb-12.5 max-w-[640px] text-base text-body-color dark:text-body-color-dark">
+              More than a parked name — eServices ships ready to discover, call,
+              and grow inside the eCorp network.
+            </p>
+          </div>
+          <div className="grid grid-cols-1 gap-7.5 md:grid-cols-3 xl:gap-10">
+            {whySmartEntity.map((item, key) => (
+              <div key={key} className="flex flex-col items-center text-center">
+                <div className="mb-5 flex h-14 w-14 items-center justify-center rounded-full bg-primary text-2xl font-semibold text-white">
+                  ✓
+                </div>
+                <p className="text-base text-body-color dark:text-body-color-dark">
+                  {item}
+                </p>
+              </div>
+            ))}
           </div>
         </div>
       </section>
