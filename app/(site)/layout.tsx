@@ -17,7 +17,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="eng">
+    <html lang="eng" className="scroll-smooth">
              <Script 
             async
             id="referral-script"

@@ -30,21 +30,15 @@ const menuData: Menu[] = [
         newTab: false,
         path: "/why",
       },
-      {
-        id: 24,
-        title: "Services",
-        newTab: false,
-        path: "/services",
-      },
       
     ],
   },
   
   {
     id: 3,
-    title: "Pricing",
-    newTab: true,
-    path: "https://services.vnoc.com"
+    title: "Services",
+    newTab: false,
+    path: "/services"
   },
 
 
