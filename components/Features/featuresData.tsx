@@ -34,7 +34,7 @@ const featuresData: Feature[] = [
     icon: "/images/icon/023-bitcoin.svg",
     title: "Blockchain Empowerment",
     description:
-      "Harness the power of blockchain by pushing your digital assets through our eShares protocol. Offer fractional ownership and smart equity, all while efficiently managing contributions via Contrib.",
+      "Harness the power of blockchain by pushing your digital assets through our blockchain protocol. Offer fractional ownership and smart equity, all while efficiently managing contributions via Contrib.",
   },
   {
     id: 6,

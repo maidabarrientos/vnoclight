@@ -26,12 +26,12 @@ const Hero = () => {
               Next Gen Digital Asset Platform
               </h1>
               <p>
-              Welcome to VNOC – the cutting-edge platform and network that harnesses the power of blockchain technology, premium URL's, innovative business models (Ecorp®), and connected networks (Contrib) to empower you to build, manage, and monetize your digital assets like never before.
+              Welcome to VNOC – the cutting-edge platform and network that harnesses the power of blockchain technology, premium URL's, innovative business models, and connected networks (Contrib) to empower you to build, manage, and monetize your digital assets like never before.
               </p>
 
               <div className="mt-10">
               <Link
-              href="https://apply.vnoc.com/" target="_blank"
+              href="/apply"
               className="right-align bg-black hover:bg-primaryho ease-in-out duration-300 text-white text-regular rounded-full py-2.5 px-7.5"
             >
               Apply Now 🔥

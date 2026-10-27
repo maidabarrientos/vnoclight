@@ -12,6 +12,12 @@ import "swiper/css/pagination";
 import { Autoplay, Navigation, Pagination } from "swiper";
 import "./projects.css";
 
+// referrals.com attribution: tag cross-links to network sites with ?ref=vnoc.com
+const withRef = (link: string) => {
+  if (/^https?:\/\/(www\.)?vnoc\.com\b/i.test(link)) return link;
+  return `${link}${link.includes("?") ? "&" : "?"}ref=vnoc.com`;
+};
+
 const LatestProjects = () => {
   return (
     <section className="py-20 px-4 md:px-8 xl:px-0 max-w-screen-xl mx-auto">
@@ -67,7 +73,7 @@ const LatestProjects = () => {
                   {project.description}
                 </p>
                 <Link
-                  href={project.link}
+                  href={withRef(project.link)}
                   target="_blank"
                   rel="noopener noreferrer"
                   className="inline-block mt-2 text-primary hover:underline text-sm font-medium"

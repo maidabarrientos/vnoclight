@@ -14,7 +14,7 @@ const Integration = () => {
             headerInfo={{
               title: `INTEGRATIONS`,
               subtitle: `Experience the Power of Collaboration`,
-              description: `Contrib.com is the embodiment of VNOC's commitment to collaboration and empowerment. It's where your ideas meet the expertise of our vibrant community, resulting in projects that transcend expectations. Join hands with contributors who are as passionate about your success as you are, and experience the transformative potential of VNOC's Contribution Network. Welcome to a world where collaboration isn't just a buzzword; it's the driving force behind your digital triumphs.`
+              description: `Contrib.com is the embodiment of VNOC's commitment to collaboration and empowerment. It's where your ideas meet the expertise of our community, resulting in projects that transcend expectations. Join hands with contributors who are as passionate about your success as you are, and experience the transformative potential of VNOC's Contribution Network. Welcome to a world where collaboration isn't just a buzzword; it's the driving force behind your digital triumphs.`
             }}
           />
 

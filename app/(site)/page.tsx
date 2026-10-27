@@ -10,6 +10,7 @@ import CTA from "@/components/CTA";
 import FAQ from "@/components/FAQ";
 import Testimonial from "@/components/Testimonial";
 import LatestProjects from "@/components/LatestProjects";
+import ContactForm from "@/components/ContactForm";
 
 export const metadata: Metadata = {
   title: "The Leading Blockchain Venture Platform for Digital Assets",
@@ -30,6 +31,7 @@ export default function Home() {
       <FAQ />
       <LatestProjects />
       <Testimonial />
+      <ContactForm />
     </main>
   );
 }

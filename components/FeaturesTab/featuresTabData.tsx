@@ -5,7 +5,7 @@ const featuresTabData: FeatureTab[] = [
     id: "tabOne",
     title: "Blockchain Asset Management",
     desc1: `Leverage the potential of blockchain through our integrated RealtyDAO feature. RealtyDAO enables tokenization on the blockchain, transforming real estate and assets into digital tokens.`,
-    desc2: `Push a digital asset to the blockchain with internal smart Solidity contracts. Allow VNOC to allocate fractions of digital assets (eShares) to Contributors via our Blockchain Asset Marketplace.`,
+    desc2: `Push a digital asset to the blockchain with internal smart Solidity contracts. Allow VNOC to allocate fractions of digital assets to Contributors via our Blockchain Asset Marketplace.`,
     image: "/images/features/features-dark-01.png",
     imageDark: "/images/features/features-dark-01.png",
   },

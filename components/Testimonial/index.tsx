@@ -22,7 +22,7 @@ const Testimonial = () => {
               headerInfo={{
                 title: `TESTIMONIALS`,
                 subtitle: `Client’s Testimonials`,
-                description: `VNOC – the cutting-edge platform and network that harnesses the power of blockchain technology, premium URL's, innovative business models (Ecorp®), and connected networks (Contrib) to empower you to build, manage, and monetize your digital assets like never before.`,
+                description: `VNOC – the cutting-edge platform and network that harnesses the power of blockchain technology, premium URL's, innovative business models, and connected networks (Contrib) to empower you to build, manage, and monetize your digital assets like never before.`,
               }}
             />
           </div>

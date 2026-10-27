@@ -324,8 +324,13 @@ const Footer = () => {
             >
               <ul className="flex items-center gap-8">                
                 <li>
-                  <a href="/privacypolicy" className="hover:text-primary">
+                  <a href="/privacy" className="hover:text-primary">
                     Privacy Policy
+                  </a>
+                </li>
+                <li>
+                  <a href="/terms" className="hover:text-primary">
+                    Terms of Use
                   </a>
                 </li>
                 <li>

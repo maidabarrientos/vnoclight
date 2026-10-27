@@ -59,15 +59,6 @@ export const latestProjects = {
         link: "https://www.referrals.com"
       },
       {
-        title: "eShares",
-        image: "images/photo/screenshot-eshares.png",
-        logo: "img/partners/7.png",
-        speakers: [{ image: "img/partners/7.png", alt: "Eshares" }],
-        description: "Digital Asset Ownership Management and Marketplace for Technology companies.",
-        category: "SAAS",
-        link: "https://www.eshares.com"
-      },      
-      {
         title: "Handyman Platform",
         image: "images/photo/screenshot-handyman.png",
         logo: "img/partners/logo-handyman.png",

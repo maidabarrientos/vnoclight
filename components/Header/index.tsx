@@ -1,6 +1,5 @@
 "use client";
 import React, { useState, useEffect } from "react";
-import Image from "next/image";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 
@@ -37,21 +36,17 @@ const Header = () => {
     >
       <div className="mx-auto max-w-c-1390 px-4 md:px-8 2xl:px-0 lg:flex items-center justify-between relative">
         <div className="w-full lg:w-1/4 flex items-center justify-between">
-          <a href="/">
-            <Image
-              src="/images/logo/logo-vnoc-with-ecorp-fordark.svg"
-              alt="VNOC"
-              width={119.03}
+          <a href="/" className="flex flex-col items-start">
+            {/* eslint-disable-next-line @next/next/no-img-element */}
+            <img
+              src="https://www.brandidentity.com/logo/vnoc.com"
+              alt="VNOC.com"
+              width={87}
               height={30}
-              className="w-full hidden dark:block"
             />
-            <Image
-              src="/images/logo/logo-vnoc-with-ecorp-forwhite.svg"
-              alt="VNOC"
-              width={119.03}
-              height={30}
-              className="w-full dark:hidden"
-            />
+            <span className="text-xs text-waterloo dark:text-manatee mt-1">
+              An eCorp Venture
+            </span>
           </a>
 
           {/* <!-- Hamburger Toggle BTN --> */}
@@ -157,7 +152,7 @@ const Header = () => {
            
 
             <Link
-              href="https://apply.vnoc.com/" target="_blank"
+              href="/apply"
               className="flex items-center justify-center bg-primary hover:bg-primaryho ease-in-out duration-300 text-white text-regular rounded-full py-2.5 px-7.5"
             >
               Apply for Platform Access 🔥
