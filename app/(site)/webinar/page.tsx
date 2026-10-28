@@ -1,53 +1,42 @@
-import React from "react";
 import { Metadata } from "next";
-
-
-
+import { PageHero, Section, ApplyBand, PrimaryButton, TextLink } from "@/components/Site";
 
 export const metadata: Metadata = {
-  title: "Webinars - Check out our VNOC session webinars",
-  description: "Contrib and VNOC Webinars",
-  // other metadata
+  title: "Webinars - VNOC",
+  description: "Live webinars from Contrib and VNOC. Register for a session or browse the sessions.",
 };
 
-const WebinarPage = () => {
+const SESSIONS_URL =
+  "https://app.livestorm.co/p/0fa43c49-393f-4719-8498-e073959e21f7/live?s=dcca3ca3-9e94-4ded-9510-e0299ad28f6b";
+const FORM_URL = "https://app.livestorm.co/p/0fa43c49-393f-4719-8498-e073959e21f7/form";
+
+export default function WebinarPage() {
   return (
-    <section className="bg-gradient-to-r from-bggrad1 via-white via-30% to-txt-grad2 pt-35 md:pt-40 xl:pt-6 pb-20 xl:pb-25 overflow-hidden">
-      
-    <div className="mx-auto max-w-c-1390 px-4 md:px-8 2xl:px-0 md:pt-30 xl:pt-36 pb-20 xl:pb-25 overflow-hidden">
-        
-            <div className="flex lg:items-center lg:gap-8 xl:gap-32.5">
-            <div className=" md:w-1/2">            
-                <h1 className="bg-gradient-to-r from-txtgrad1 to-black bg-clip-text text-transparent text-5xl xl:text-hero font-bold mb-5 pr-16 dark:text-white">
-                JOIN OUR LIVE WEBINARS
-                </h1>
-                <div className="bg-zumthor dark:bg-blacksection dark:border dark:border-strokedark inline-block rounded-full py-1.5 px-4.5 mb-4">
-            <h4 className="font-medium text-sectiontitle text-black dark:text-white"><a href="https://app.livestorm.co/p/0fa43c49-393f-4719-8498-e073959e21f7/live?s=dcca3ca3-9e94-4ded-9510-e0299ad28f6b">
-                BROWSE WEBINAR SESSIONS</a>
-            </h4>
+    <main>
+      <PageHero
+        title="Join Our Live Webinars"
+        intro="Contrib and VNOC run live webinar sessions. Register with the form below, or browse the sessions first."
+      >
+        <div className="flex flex-wrap items-center gap-x-8 gap-y-4">
+          <PrimaryButton href="#register">Register for a session</PrimaryButton>
+          <TextLink href={SESSIONS_URL}>Browse webinar sessions</TextLink>
         </div>
-            </div>
-            <div className="animate_right md:w-1/2 hidden lg:block">
-                <div className="relative">                
-                <div className=" relative aspect-[1090/810] w-full">
-                <iframe
-                className="justify-self-center"
-                width="90%"
-                height="780"
-                frameBorder="0"
-                src="https://app.livestorm.co/p/0fa43c49-393f-4719-8498-e073959e21f7/form"
-            ></iframe>
-                </div>
-                </div>
-            </div> 
-            </div> 
+      </PageHero>
+
+      <Section id="register" title="Register for a session">
+        <div className="max-w-3xl">
+          <iframe
+            title="Webinar registration"
+            src={FORM_URL}
+            width="100%"
+            height="780"
+            frameBorder="0"
+            className="block w-full"
+          ></iframe>
         </div>
-    </section>        
-   
+      </Section>
 
-
-
+      <ApplyBand />
+    </main>
   );
-};
-
-export default WebinarPage;
+}

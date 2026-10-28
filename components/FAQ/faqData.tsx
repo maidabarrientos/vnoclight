@@ -3,23 +3,28 @@ import { FAQ } from "@/types/faq";
 const faqData: FAQ[] = [
   {
     id: 1,
-    quest: "How does VNOC work?",
-    ans: "VNOC integrates advanced technologies such as blockchain, AI, and a suite of tools to provide a single platform for domain management, content creation, team collaboration, task automation, and more. It enables users to streamline their digital asset activities and maximize their potential.",
+    quest: "What is VNOC?",
+    ans: "VNOC is the technology behind a portfolio of more than 20,000 domains. It brings together traffic analytics, offer forms, trademark monitoring, link sales and venture building, the same tools listed on this page.",
   },
   {
     id: 2,
-    quest: "Can I Use VNOC for any digital asset?",
-    ans: "Yes, VNOC is designed to accommodate a wide range of domains and digital assets. Whether you're a domain investor, developer, marketer, or entrepreneur, VNOC provides the tools and flexibility to suit your needs.",
+    quest: "Who is VNOC for?",
+    ans: "Domain investors who hold more names than they can watch by hand, and want to know which ones get traffic, which ones get offers, and which ones are worth building.",
   },
   {
     id: 3,
-    quest: "How does VNOC's contribution network work",
-    ans: "VNOC's Contribution Network, accessible through Contrib.com, allows community members to contribute tasks to your digital asset projects. This collective effort enhances project development, leveraging the expertise of the VNOC community.",
+    quest: "Can I use the tools today?",
+    ans: "Yes. DNTrademark, BidCenter, LinkAgent, Referrals and the Domain Directory forms are live sites you can open now. Apply for access to talk with us about running them across your portfolio.",
   },
   {
     id: 4,
-    quest: "How can VNOC assist in branding and monetization?",
-    ans: "VNOC's Brand Builder, combined with its framework flexibility, allows you to quickly turn domains into thriving businesses. Monetization options include referral programs, network ad optimization, direct ad supply, and more.",
+    quest: "Where do the traffic numbers come from?",
+    ans: "From VNOC Analytics, which counts visits on every domain in the network and filters out bots. Network totals and per-domain stats are public at analytics.vnoc.com.",
+  },
+  {
+    id: 5,
+    quest: "How do offers reach the owner?",
+    ans: "Offers made through the Domain Directory forms and BidCenter are saved as leads for the domain's owner to review and answer.",
   },
 ];
 

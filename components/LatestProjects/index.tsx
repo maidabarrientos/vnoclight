@@ -20,19 +20,12 @@ const withRef = (link: string) => {
 
 const LatestProjects = () => {
   return (
-    <section className="py-20 px-4 md:px-8 xl:px-0 max-w-screen-xl mx-auto">
-      <div className="text-center mb-12">
-        <div className="bg-zumthor dark:bg-blacksection dark:border dark:border-strokedark inline-block rounded-full py-1.5 px-4.5 mb-4">
-          <h4 className="font-medium text-sectiontitle text-black dark:text-white">
-            {latestProjects.subtitle}
-          </h4>
-        </div>
-        <h2 className="text-3xl md:text-4xl font-bold text-black dark:text-white mt-2">
+    <section className="py-20 lg:py-28 px-4 md:px-8 2xl:px-0 max-w-c-1390 mx-auto">
+      <div className="max-w-2xl mb-12">
+        <h2 className="text-ink dark:text-white text-4xl xl:text-sectiontitle3 font-extrabold tracking-[-0.02em] mb-5">
           {latestProjects.title}
         </h2>
-        <p className="mt-4 text-gray-600 dark:text-gray-300 max-w-2xl mx-auto">
-          {latestProjects.text}
-        </p>
+        <p className="text-slate dark:text-manatee text-lg leading-relaxed">{latestProjects.text}</p>
       </div>
 
       <Swiper
@@ -76,9 +69,9 @@ const LatestProjects = () => {
                   href={withRef(project.link)}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="inline-block mt-2 text-primary hover:underline text-sm font-medium"
+                  className="inline-block mt-2 text-primaryho dark:text-bggrad1 hover:underline text-sm font-bold"
                 >
-                  Visit Project →
+                  Visit project
                 </Link>
               </div>
             </div>

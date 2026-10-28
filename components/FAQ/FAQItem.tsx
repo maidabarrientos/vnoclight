@@ -1,5 +1,4 @@
 import React from "react";
-import Image from "next/image";
 
 type FaqData = {
   activeFaq: number;
@@ -11,59 +10,28 @@ type FaqData = {
 
 const FAQItem = ({ faqData }: { faqData: FaqData }) => {
   const { activeFaq, id, handleFaqToggle, quest, ans } = faqData;
+  const open = activeFaq === id;
 
   return (
-    <>
-      <div className="flex flex-col border-b border-stroke dark:border-strokedark">
-        <h4
-          onClick={() => {
-            handleFaqToggle(id);
-          }}
-          className="cursor-pointer flex justify-between items-center font-medium text-metatitle3 text-black dark:text-white py-5 lg:py-7.5 px-6 lg:px-9"
+    <div className="border-b border-rule dark:border-strokedark">
+      <h3>
+        <button
+          type="button"
+          onClick={() => handleFaqToggle(id)}
+          aria-expanded={open}
+          aria-controls={`faq-${id}`}
+          className="w-full flex justify-between items-center gap-6 text-left text-lg md:text-xl font-bold text-ink dark:text-white py-5 hover:text-primaryho dark:hover:text-bggrad1 focus-visible:outline focus-visible:outline-2 focus-visible:outline-primaryho"
         >
           {quest}
-          <Image
-            width={28}
-            height={16}
-            src="./images/icon/icon-plus-light.svg"
-            alt="plus"
-            className={`dark:hidden ${activeFaq === id ? "hidden" : "block"}`}
-          />
-          <Image
-            width={28}
-            height={16}
-            src="./images/icon/icon-minus-light.svg"
-            alt="minus"
-            className={`dark:hidden ${activeFaq === id ? "block" : "hidden"}`}
-          />
-          <Image
-            width={28}
-            height={16}
-            src="/images/icon/icon-plus-dark.svg"
-            alt="plus"
-            className={`hidden ${
-              activeFaq === id ? "dark:hidden" : "dark:block"
-            }`}
-          />
-          <Image
-            width={28}
-            height={28}
-            src="/images/icon/icon-minus-dark.svg"
-            alt="minus"
-            className={`hidden ${
-              activeFaq === id ? "dark:block" : "dark:hidden"
-            }`}
-          />
-        </h4>
-        <p
-          className={`py-5 lg:py-7.5 px-6 lg:px-9 border-t border-stroke dark:border-strokedark ${
-            activeFaq === id ? "block" : "hidden"
-          }`}
-        >
-          {ans}
-        </p>
-      </div>
-    </>
+          <span aria-hidden="true" className="text-2xl leading-none text-slate dark:text-manatee">
+            {open ? "−" : "+"}
+          </span>
+        </button>
+      </h3>
+      <p id={`faq-${id}`} hidden={!open} className="pb-6 text-slate dark:text-manatee leading-relaxed max-w-[40em]">
+        {ans}
+      </p>
+    </div>
   );
 };
 

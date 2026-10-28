@@ -41,6 +41,11 @@ module.exports = {
       txtgrad1:"#094865",
       txtgrad2:"#fddc79",
       hintred:"#ef476f",
+      // Domainer homepage palette
+      ink:"#0F2238",
+      paper:"#F3F6F9",
+      slate:"#5A6B80",
+      rule:"#D9E1E8",
       
   },
     extend: {

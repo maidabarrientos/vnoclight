@@ -1,19 +1,22 @@
 import React from "react";
 import Contact from "@/components/Contact";
 import { Metadata } from "next";
+import { PageHero, Section } from "@/components/Site";
 
 export const metadata: Metadata = {
   title: "Contact VNOC",
-  description: "Contact us today",
-  // other metadata
+  description: "Questions about VNOC or your portfolio? Send us a message.",
 };
 
-const ContactPage = () => {
+const Page = () => {
   return (
-    <div className="pt-40 pb-20">
-      <Contact />
-    </div>
+    <main>
+      <PageHero title="Contact VNOC" intro="Questions about VNOC or your portfolio? Send us a message." />
+      <Section tone="paper">
+        <Contact />
+      </Section>
+    </main>
   );
 };
 
-export default ContactPage;
+export default Page;

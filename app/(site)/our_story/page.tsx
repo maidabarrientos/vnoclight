@@ -1,109 +1,177 @@
-import { CloudArrowUpIcon, LockClosedIcon, ServerIcon } from '@heroicons/react/20/solid';
+import { Metadata } from "next";
+import Link from "next/link";
+import BrandLogo from "@/components/Domainer/BrandLogo";
+import DomainName from "@/components/Domainer/DomainName";
+import { PageHero, Section, Prose, Rows, ApplyBand, PrimaryButton, TextLink } from "@/components/Site";
 
+export const metadata: Metadata = {
+  title: "Our Story - VNOC",
+  description:
+    "VNOC started as the tools we built to run our own portfolio of more than 20,000 domains. Here's how it grew, and why we're opening it to domain investors.",
+};
 
-export default function OurstoryPage() {
+const facts = [
+  { value: "Early 2000s", label: "Building on premium domains since" },
+  { value: "20,000+", label: "Domains in our own portfolio" },
+  { value: "20+ years", label: "Buying and selling names through Domain Directory" },
+  { value: "$70 million", label: "In Domain Directory sales" },
+];
+
+const tools = [
+  {
+    title: "VNOC Analytics",
+    domain: "vnoc.com",
+    brand: "Analytics.VNOC.com",
+    text: "Real visitor counts for every domain, with bots filtered out, so we know which names people type in.",
+    href: "https://analytics.vnoc.com/network",
+  },
+  {
+    title: "Domain Directory",
+    domain: "domaindirectory.com",
+    brand: "DomainDirectory.com",
+    text: "Offer, inquiry, partner and lease forms on every lander, all landing in one place.",
+    href: "https://www.domaindirectory.com",
+  },
+  {
+    title: "DNTrademark",
+    domain: "dntrademark.com",
+    brand: "DNTrademark.com",
+    text: "Trademark checks across our names, with alerts when a conflict appears.",
+    href: "https://www.dntrademark.com",
+  },
+  {
+    title: "BidCenter",
+    domain: "bidcenter.com",
+    brand: "BidCenter.com",
+    text: "A public board of the top offers on our premium names.",
+    href: "https://www.bidcenter.com",
+  },
+];
+
+const builds = [
+  { domain: "homemanager.com", brand: "HomeManager.com" },
+  { domain: "venturescore.com", brand: "VentureScore.com" },
+  { domain: "marketbot.com", brand: "MarketBot.com" },
+  { domain: "ventureboard.com", brand: "VentureBoard.com" },
+  { domain: "profilesuite.com", brand: "ProfileSuite.com" },
+  { domain: "loopagent.com", brand: "LoopAgent.com" },
+  { domain: "idesigner.com", brand: "iDesigner.com" },
+  { domain: "servicedirectory.com", brand: "ServiceDirectory.com" },
+];
+
+export default function OurStoryPage() {
   return (
-    <div className="relative isolate overflow-hidden bg-gradient-to-r from-gray-500 to-indigo-700 px-6 py-24 sm:py-32 lg:overflow-visible lg:px-0">
-      <div className="mx-auto max-w-2xl grid gap-x-8 gap-y-16 lg:mx-0 lg:max-w-none lg:grid-cols-2 lg:items-start lg:gap-y-10">
-        <div className="lg:col-span-2 lg:col-start-1 lg:row-start-1 lg:mx-auto lg:grid lg:w-full lg:max-w-7xl lg:grid-cols-2 lg:gap-x-8 lg:px-8">
-          <div className="lg:pr-4 space-y-6">
-            <div className="text-center lg:text-left lg:max-w-lg">
-              <p className="text-base font-semibold leading-7 text-indigo-300">Our Story: The Company Behind VNOC</p>
-              <h1 className="mt-2 text-3xl font-bold tracking-tight sm:text-4xl">Shaping the Future of Digital Ventures</h1>
-              <p className="mt-6 text-xl leading-8 text-indigo-200">
-              Ecorp®, the powerhouse behind VNOC, has been at the forefront of digital innovation since its inception in the early 2000. With a steadfast commitment to transforming the digital landscape, Ecorp® and VNOC share a vision of empowering businesses and individuals to fully leverage their digital potential.
-              </p>
+    <main>
+      <PageHero
+        title="We Built VNOC to Run Our Own Domains"
+        intro="VNOC didn't start as a product. It started as the tools we needed to manage a portfolio of more than 20,000 names, and it grew from there."
+      />
+
+      <Section tone="white">
+        <dl className="grid grid-cols-2 lg:grid-cols-4 gap-x-10 gap-y-8 border-t-2 border-ink dark:border-white/40 pt-8">
+          {facts.map((f) => (
+            <div key={f.label}>
+              <dt className="text-slate dark:text-manatee">{f.label}</dt>
+              <dd className="text-3xl md:text-4xl font-extrabold tracking-tight text-ink dark:text-white mt-2">
+                {f.value}
+              </dd>
             </div>
-              <div className="flex space-x-4">
-              <div className="flex items-center space-x-2">
-                <CloudArrowUpIcon className="h-6 w-6 text-red-300" />
-                <span className="text-red-300">Fast & Secure</span>
-              </div>
-              <div className="flex items-center space-x-2">
-                <LockClosedIcon className="h-6 w-6 text-red-300" />
-                <span className="text-red-300">Private & Confidential</span>
-              </div>
-              <div className="flex items-center space-x-2">
-                <ServerIcon className="h-6 w-6 text-red-300" />
-                <span className="text-red-300">High Performance</span>
-              </div>
-            
+          ))}
+        </dl>
+      </Section>
 
-            </div>
-          </div>
+      <Section tone="paper" title="It started with domains">
+        <Prose tone="paper">
+          <p>
+            <a href="https://ecorp.com" className="underline underline-offset-4 hover:text-primaryho dark:hover:text-bggrad1">
+              Ecorp®
+            </a>
+            , the company behind VNOC, has been building on premium domain names since the early 2000s.
+            Domain investor Chad Folkening grew the portfolio to more than 20,000 names, and Domain
+            Directory has been buying and selling names for over 20 years, with $70 million in sales.
+          </p>
+          <p>
+            A portfolio that size raises questions no registrar dashboard answers: which names do people
+            actually visit, who wants to buy them, which ones are at risk, and which are worth more than a
+            parked page.
+          </p>
+        </Prose>
+      </Section>
+
+      <Section
+        tone="white"
+        title="So we built our own tools"
+        intro="Each one answered one of those questions for our portfolio first. They're live products today."
+      >
+        <Rows items={tools} />
+      </Section>
+
+      <Section tone="paper" title="Then we brought in people">
+        <Prose tone="paper">
+          <p>
+            Names don&apos;t build themselves. The{" "}
+            <Link href="/contribution" className="underline underline-offset-4 hover:text-primaryho dark:hover:text-bggrad1">
+              Contrib network
+            </Link>{" "}
+            lets developers, designers and marketers take on work for our ventures and earn for it, and our
+            core team in Davao, Philippines runs the platform day to day.
+          </p>
+          <p>
+            We added a{" "}
+            <Link href="/#blockchain" className="underline underline-offset-4 hover:text-primaryho dark:hover:text-bggrad1">
+              blockchain stack
+            </Link>{" "}
+            so ventures can record who contributed, share ownership, take payments and hold a treasury.
+          </p>
+        </Prose>
+      </Section>
+
+      <Section
+        tone="white"
+        title="Now we build on the best names"
+        intro="With traffic data, buyers and people in one place, we turn the names that earn it into working ventures. Some of the latest:"
+      >
+        <ul className="grid sm:grid-cols-2 lg:grid-cols-4 gap-x-8 gap-y-5">
+          {builds.map((b) => (
+            <li key={b.domain}>
+              <a
+                href={`https://www.${b.domain}/?ref=vnoc.com`}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="flex items-center gap-3 text-lg font-bold tracking-tight text-ink dark:text-white hover:text-primaryho dark:hover:text-bggrad1"
+              >
+                <BrandLogo domain={b.domain} className="h-9 w-24 py-1" />
+                <DomainName domain={b.domain} brand={b.brand} tldClassName="opacity-50" />
+              </a>
+            </li>
+          ))}
+        </ul>
+        <div className="mt-8">
+          <TextLink href="/#builds">See all our latest builds</TextLink>
         </div>
-        <div className="-ml-12 -mt-12 p-12 lg:sticky lg:top-4 lg:col-start-2 lg:row-span-2 lg:row-start-1 lg:overflow-hidden">
-          <img
-            className="w-[58rem] max-w-none rounded-xl bg-gray-900 shadow-xl ring-1 ring-gray-400/10 sm:w-[86rem]"
-            src="/images/about/screenshot-about.png"
-            alt="About VNOC"
-          />
+      </Section>
+
+      <Section tone="paper" title="How we work">
+        <Prose tone="paper">
+          <p>
+            Decentralize with a purpose: create, share, learn, grow and replicate. Swarming, distribution,
+            network intelligence and data, with every business model aligned to the network.
+          </p>
+          <p>
+            Our mission is to give domain investors the tools, data and people they need, and our vision is
+            a network where anyone can contribute to a venture and share in what it builds.
+          </p>
+        </Prose>
+        <div className="mt-9 flex flex-wrap items-center gap-x-8 gap-y-4">
+          <PrimaryButton href="/apply">Apply for access</PrimaryButton>
+          <TextLink href="/support">Get in touch</TextLink>
         </div>
-        <div className="lg:col-span-2 lg:col-start-1 lg:row-start-2 lg:mx-auto lg:grid lg:w-full lg:max-w-7xl lg:grid-cols-2 lg:gap-x-8 lg:px-8">
-          <div className="lg:pr-4">
+      </Section>
 
-            <div className="max-w-xl text-base leading-7 text-gray-700 lg:max-w-lg">
-            <h2 className="mt-16 text-2xl font-bold tracking-tight text-gray-900">Our Mission</h2>
-             
-              <p>
-              Our mission is unwavering: to equip our users with the tools, resources, and community support needed to flourish in the digital era. We are dedicated to democratizing access to state-of-the-art technologies and insights, ensuring that every participant, from startups to established enterprises, can thrive in the evolving digital revolution.
-              </p>
-            <h2 className="mt-16 text-2xl font-bold tracking-tight text-gray-900">
-            A Seamless Integration of Technology
-            
-            </h2>
-            <p>
-            What distinctly sets us apart is our seamless integration of technology and community. At Ecorp® and VNOC:
-            </p>
-            <ul>
-              <li className='list-disc mt-2 mb-1 ml-4'>
-              <b>Blockchain Innovation:</b> We leverage cutting-edge blockchain technology to ensure secure and transparent digital transactions.
-              </li>
-              <li className='list-disc mt-2 mb-1 ml-4'>
-                <b>Advanced Data Management: </b>Our sophisticated data management tools provide the backbone for robust digital ventures, enhancing operational efficiency and strategic insights.
-              </li>
-              <li className='list-disc mt-2 mb-1 ml-4'>
-                <b>Contrib Network:</b> A thriving ecosystem that fosters collaboration and growth, the Contrib network is integral to our platform, uniting a global community of innovators.
-              </li>
-            </ul>
-   
-            <h2 className="mt-16 text-2xl font-bold tracking-tight text-gray-900">
-            Our Vision
-            </h2>
-            <p>
-            Our vision is to foster a global community of digital pioneers who are not just users but active contributors 
-            to the digital ecosystem. We envision a future where creativity, innovation, and entrepreneurship are within reach of all, irrespective of their background or expertise.
-
-            </p>
-
-            <h2 className="mt-15 text-2xl font-bold tracking-tight text-gray-900">
-            <a href="https://apply.vnoc.com/" className='text-red-300 underline'>Join the VNOC.com Community Today</a>
-            </h2>
-            <p className='mb-2'>
-            Whether you're a digital creative, domain expert, entrepreneur, developer, or TLD owner, 
-            VNOC.com is your platform for success. We invite you to join our community of forward-thinkers who are shaping tomorrow's digital world.
-
-            </p>
-            
-
-            <h2 className="mt-16 text-2xl font-bold tracking-tight text-gray-900">
-            Contact Us
-            </h2>
-            <p>
-            <a href="/contact">Got questions or want to learn more? </a>
-            Feel free to reach out to us at any time. We're here to support your digital journey every step of the way.
-
-            </p>
-
-              <p className="mt-8">
-              Strategy: Decentralize with a Purpose - Create, Share, Learn, Grow, Replicate. Swarming. Distribution. Network Intelligence. DATA. Business Model Alignment - .org.
-              </p>
-              
-              
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  )
+      <ApplyBand
+        title="Run your portfolio on the same stack."
+        text="Everything we built for our own domains is open to domain investors. Apply and tell us about yours."
+      />
+    </main>
+  );
 }

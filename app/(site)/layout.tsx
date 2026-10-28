@@ -8,6 +8,7 @@ import { Inter } from "next/font/google";
 import { ThemeProvider } from "next-themes";
 const inter = Inter({ subsets: ["latin"] });
 import "../globals.css";
+import { grotesk } from "@/lib/fonts";
 
 import ToasterContext from "../context/ToastContext";
 
@@ -37,7 +38,7 @@ export default function RootLayout({
             gtag('config', 'G-M6ZLWK2ZQ0');
           `}
         </Script>
-      <body className={`dark:bg-black`}>
+      <body className={`${grotesk.className} dark:bg-black`}>
         {/* VNOC Analytics: counts real visitors on analytics.vnoc.com */}
         <script src="https://analytics.vnoc.com/tracker.js" defer />
    

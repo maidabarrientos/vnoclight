@@ -1,333 +1,134 @@
+import { Metadata } from "next";
 import Image from "next/image";
-export default function UCPage() {
+import { PageHero, Section, Rows, ApplyBand, PrimaryButton, TextLink } from "@/components/Site";
+
+export const metadata: Metadata = {
+  title: "Use cases",
+  description:
+    "What domain investors do with VNOC: see the whole portfolio, track real traffic, catch offers, decide renewals, list names for sale, build sites in bulk and run it all by talking to Joe.",
+};
+
+// Each use case is shown with a screenshot of the real screen in app.vnoc.com
+// (or Joe's page). Buyer contact details and staff names are blurred.
+const useCases = [
+  {
+    id: "portfolio",
+    title: "See your whole portfolio in one list",
+    text: "Every domain with its category, visits, price, expiry date and whether it has sold. Search it, sort it, or export it all to CSV.",
+    image: "/images/app/domain-reports.jpg",
+    alt: "Domain Reports in app.vnoc.com, listing domains with category, visits, price and expiry",
+  },
+  {
+    id: "traffic",
+    title: "Know which names people actually visit",
+    text: "Tracked domains, visitors and pageviews across the portfolio, with the option to drill into any single domain. Network totals are also public on VNOC Analytics.",
+    image: "/images/app/analytics.jpg",
+    alt: "Analytics in app.vnoc.com with tracked domains, visitors, pageviews and requests",
+    link: { href: "https://analytics.vnoc.com/network", label: "See live network traffic" },
+  },
+  {
+    id: "offers",
+    title: "Catch every offer",
+    text: "Offers from the forms on your sites land in one inbox with the domain, the buyer, the bid, the message and whether anyone has replied.",
+    image: "/images/app/offers.jpg",
+    alt: "Offers inbox in app.vnoc.com, with buyer contacts and messages blurred",
+  },
+  {
+    id: "renewals",
+    title: "Decide what to renew and what to drop",
+    text: "See what has expired, what's pending delete and what's due in the next 30, 60 and 90 days, then mark each name Keep or Drop. You can also paste in a list.",
+    image: "/images/app/renewals.jpg",
+    alt: "Domain Renewals in app.vnoc.com with counts for expired and upcoming renewals",
+  },
+  {
+    id: "listing",
+    title: "List names where buyers look",
+    text: "Track which domains are listed on which marketplaces, including Flippa, GoDaddy, Sedo and DomainPower, and which still need listing.",
+    image: "/images/app/listing.jpg",
+    alt: "Domain Marketplace Listing in app.vnoc.com showing listing sites and status per domain",
+  },
+  {
+    id: "build",
+    title: "Build sites on many names at once",
+    text: "Paste a list of domains, pick a framework and a server, and queue them all for a build. The queue shows every build as it goes.",
+    image: "/images/app/bulk-build.jpg",
+    alt: "Bulk Domain Rebuild in app.vnoc.com with a build form and the recent build queue",
+  },
+  {
+    id: "joe",
+    title: "Run it all by talking to Joe",
+    text: "Joe is the VentureOS operator. Ask him how a domain is doing or what it's worth, get a renewal review, find premium names worth building, and have him build and publish a venture. Nothing goes live and no money moves without your confirmation.",
+    image: "/images/app/joe.jpg",
+    alt: "Joe's page on mcp.ventureos.com: Your domains, alive",
+    link: { href: "https://mcp.ventureos.com", label: "Meet Joe" },
+  },
+];
+
+const audiences = [
+  {
+    title: "Domain investors",
+    text: "You hold more names than you can manage by hand. VNOC sorts them, shows you which ones earn attention and helps you sell, lease or build on the rest.",
+  },
+  {
+    title: "Digital entrepreneurs",
+    text: "You own a few good names and want businesses on them. Start from the traffic and demand you can see, then build with frameworks and the Contrib network.",
+    href: "/build",
+  },
+  {
+    title: "Digital creatives",
+    text: "You have the ideas. Find a name, build a brand around it and work with contributors through Contrib.",
+    href: "/contribution",
+  },
+];
+
+export default function UseCasesPage() {
   return (
-    <>
-      <title>Use Cases</title>
-      <section className="mx-auto max-w-c-1390 px-4 md:px-8 2xl:px-0 pt-25 md:pt-30 xl:pt-36 pb-20 xl:pb-25 overflow-hidden">
-        <div className="flex lg:items-center lg:gap-8 xl:gap-32.5">
-          <div className=" md:w-1/2">            
-            <h1 className="bg-gradient-to-r from-txtgrad1 to-black bg-clip-text text-transparent text-5xl xl:text-hero font-bold mb-5 pr-16 dark:text-white">
-            Use Cases
-            </h1>
-            <p>
-            VNOC platform offers a comprehensive solution for digital entrepreneurs, allowing them to effortlessly turn their dormant domains into successful online enterprises. With the assistance of the Brand Builder tool, domains can be rapidly transformed into fully-developed brands, complete with customized structures.
-            </p>
-          </div>
-          <div className="animate_right md:w-1/2 hidden lg:block">
-            <div className="relative">                
-              <div className=" relative aspect-[1090/810] w-full">
-                <Image
-                  className="dark:hidden shadow-solid-l"
-                  src="/images/hero/vnboard_image1a.png"
-                  alt="Hero"
-                  fill
-                />
-                <Image
-                  className="hidden dark:block shadow-solid-l"
-                  src="/images/hero/vnboard_image1a.png"
-                  alt="Hero"
-                  fill
-                />
-              </div>
-            </div>
-          </div> 
-        </div> 
-      </section>      
-      <section className="pb-16 md:pb-20 lg:pb-24 pt-10 md:pt-10 lg:pt-10">
-        <div className="max-w-c-1390 relative mx-auto">
-          <div className="flex flex-wrap -mx-4">
-            <div className="w-full px-4 lg:w-4/4 mx-auto">
-              <div className="blog-details blog-details-docs rounded-sm bg-white py-11 px-8 shadow-three dark:bg-gray-dark sm:p-[55px] lg:mb-5 lg:px-8 xl:p-[55px]">    
-                <div className="flex items-center gap-8 lg:gap-19">                  
-                  <div className="animate_right md:w-1/2 hidden lg:block">
-                    <div className="relative 2xl:-mr-7.5">                
-                      <div className=" relative aspect-[700/444] w-full">
-                        <Image
-                          className="dark:hidden shadow-solid-l"
-                          src="/images/hero/uc-image5.png"
-                          alt="Hero"
-                          fill
-                        />
-                        <Image
-                          className="hidden dark:block shadow-solid-l"
-                          src="/images/hero/uc-image5.png"
-                          alt="Hero"
-                          fill
-                        />
-                      </div>
-                    </div>
-                  </div> 
-                  <div className=" md:w-1/2"> 
-                    <h5 className="text-black dark:text-white font-medium uppercase">Use Case 1</h5>           
-                    <h2 className="relative font-bold text-black dark:text-white text-3xl mb-6">Digital Entrepreneurs</h2>
-                    <p>
-                    Scaling Success with VNOC: Empowering Digital Entrepreneurs
-                    </p>
-                  </div>
-                </div>
-                <section id="features" className="">
-                  <div className="mx-auto max-w-c-1315 px-4 md:px-8 xl:px-0">                    
-                    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-7.5 xl:gap-12.5 mt-10 lg:mt-10 xl:mt-10">
-                      <div className="animate_top border border-white shadow-solid-3 rounded-lg p-7.5 xl:p-12.5 transition-all hover:shadow-solid-4 dark:hover:bg-hoverdark dark:border-strokedark dark:bg-blacksection z-40 bg-white">
-                        <div className="flex items-center justify-center rounded-[4px] bg-primary w-16 h-16 relative">
-                          <Image src="/images/icon/icon-01.svg" width={36} height={36} alt="title" />
-                        </div>
-                        <h3 className="font-semibold text-xl xl:text-itemtitle text-black dark:text-white mt-7.5 mb-5">Challenge:</h3>
-                        <p>Digital entrepreneurs often possess a multitude of digital assets, from domains to ventures, which can become overwhelming to manage. The challenge lies in efficiently building, managing, and monetizing these assets to maximize ROI. Assess the value of each asset in your portfolio. This evaluation should consider factors like traffic, revenue, brand recognition, and market demand.</p>
-                      </div>
-                      <div className="animate_top border border-white shadow-solid-3 rounded-lg p-7.5 xl:p-12.5 transition-all hover:shadow-solid-4 dark:hover:bg-hoverdark dark:border-strokedark dark:bg-blacksection z-40 bg-white">
-                        <div className="flex items-center justify-center rounded-[4px] bg-primary w-16 h-16 relative">
-                          <Image src="/images/icon/icon-02.svg" width={36} height={36} alt="title" />
-                        </div>
-                        <h3 className="font-semibold text-xl xl:text-itemtitle text-black dark:text-white mt-7.5 mb-5">Solution:</h3>
-                        <p>VNOC provides a comprehensive platform where digital entrepreneurs can seamlessly transform their underutilized domains into thriving online businesses. The Brand Builder tool enables the quick conversion of domains into fully-fledged brands with tailored frameworks. Additionally, the integrated Social Suite simplifies the management and distribution of content across multiple social platforms.</p>
-                      </div>                      
-                    </div>
-                  </div>
-                  <div className="mx-auto max-w-c-1315 px-4 md:px-8 xl:px-0">                    
-                    <div className="grid grid-cols-1 md:grid-cols-1 lg:grid-cols-1 gap-7.5 xl:gap-12.5 mt-10 lg:mt-10 xl:mt-10">
-                      <div className="animate_top border border-white shadow-solid-3 rounded-lg p-7.5 xl:p-12.5 transition-all hover:shadow-solid-4 dark:hover:bg-hoverdark dark:border-strokedark dark:bg-blacksection z-40 bg-white">
-                        <h2 className="relative font-bold text-black dark:text-white text-3xl xl:text-hero mb-6">
-                          Benefits:
-                        </h2>
-                        <div className="mt-7.5 flex items-center gap-5">
-                          <div className="w-15 h-15 rounded-[50%] border border-stroke dark:border-strokedark dark:bg-blacksection flex items-center justify-center">
-                            <div className="text-black dark:text-white font-semibold text-metatitle2">
-                              01
-                            </div>
-                          </div>
-                          <div className="w-3/4">
-                            <h5 className="text-black dark:text-white text-metatitle2 mb-0.5">
-                              Streamlined Brand Creation
-                            </h5>
-                            <p>VNOC accelerates the process of turning domains into profitable ventures through its customizable brand frameworks.</p>
-                          </div>
-                        </div> 
-                        <div className="mt-7.5 flex items-center gap-5">
-                          <div className="w-15 h-15 rounded-[50%] border border-stroke dark:border-strokedark dark:bg-blacksection flex items-center justify-center">
-                            <div className="text-black dark:text-white font-semibold text-metatitle2">
-                              02
-                            </div>
-                          </div>
-                          <div className="w-3/4">
-                            <h5 className="text-black dark:text-white text-metatitle2 mb-0.5">
-                             Monetization Opportunities
-                            </h5>
-                            <p>The platform's flexible domain monetization features facilitate revenue generation through optimized network ads and referral programs.</p>
-                          </div>
-                        </div>
-                        <div className="mt-7.5 flex items-center gap-5">
-                          <div className="w-15 h-15 rounded-[50%] border border-stroke dark:border-strokedark dark:bg-blacksection flex items-center justify-center">
-                            <div className="text-black dark:text-white font-semibold text-metatitle2">
-                              03
-                            </div>
-                          </div>
-                          <div className="w-3/4">
-                            <h5 className="text-black dark:text-white text-metatitle2 mb-0.5">
-                              Enhanced Management
-                            </h5>
-                            <p>VNOC's centralized Control Panel and network apps simplify venture management, saving time and effort.</p>
-                          </div>
-                        </div>                        
-                      </div>
-                    </div>
-                  </div>
-                </section>
-                <div className="flex items-center gap-8 lg:gap-19 mt-12.5 lg:mt-15 xl:mt-20">                  
-                  <div className="animate_right md:w-1/2 hidden lg:block">
-                    <div className="relative 2xl:-mr-7.5">                
-                      <div className=" relative aspect-[700/444] w-full">
-                        <Image
-                          className="dark:hidden shadow-solid-l"
-                          src="/images/hero/uc-image6.png"
-                          alt="Hero"
-                          fill
-                        />
-                        <Image
-                          className="hidden dark:block shadow-solid-l"
-                          src="/images/hero/uc-image6.png"
-                          alt="Hero"
-                          fill
-                        />
-                      </div>
-                    </div>
-                  </div> 
-                  <div className=" md:w-1/2"> 
-                    <h5 className="text-black dark:text-white font-medium uppercase">Use Case 2</h5>           
-                    <h2 className="relative font-bold text-black dark:text-white text-3xl mb-6">Domainers:</h2>
-                    <p>
-                    Monetizing Domains with Ease: VNOC's Edge for Domainers
-                    </p>
-                  </div>
-                </div>
-                <section id="features" className="">
-                  <div className="mx-auto max-w-c-1315 px-4 md:px-8 xl:px-0">                    
-                    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-7.5 xl:gap-12.5 mt-10 lg:mt-10 xl:mt-10">
-                      <div className="animate_top border border-white shadow-solid-3 rounded-lg p-7.5 xl:p-12.5 transition-all hover:shadow-solid-4 dark:hover:bg-hoverdark dark:border-strokedark dark:bg-blacksection z-40 bg-white">
-                        <div className="flex items-center justify-center rounded-[4px] bg-primary w-16 h-16 relative">
-                          <Image src="/images/icon/icon-01.svg" width={36} height={36} alt="title" />
-                        </div>
-                        <h3 className="font-semibold text-xl xl:text-itemtitle text-black dark:text-white mt-7.5 mb-5">Challenge:</h3>
-                        <p>Domainers possess an extensive collection of domains, but efficiently capitalizing on these assets can be complex. The challenge lies in categorizing, managing, and generating revenue from their domain portfolio.</p>
-                      </div>
-                      <div className="animate_top border border-white shadow-solid-3 rounded-lg p-7.5 xl:p-12.5 transition-all hover:shadow-solid-4 dark:hover:bg-hoverdark dark:border-strokedark dark:bg-blacksection z-40 bg-white">
-                        <div className="flex items-center justify-center rounded-[4px] bg-primary w-16 h-16 relative">
-                          <Image src="/images/icon/icon-02.svg" width={36} height={36} alt="title" />
-                        </div>
-                        <h3 className="font-semibold text-xl xl:text-itemtitle text-black dark:text-white mt-7.5 mb-5">Solution:</h3>
-                        <p>VNOC revolutionizes domainers' asset management by providing AI-driven categorization, making portfolio organization effortless. The Blockchain Asset Marketplace allows domainers to allocate fractions of digital assets to contributors, amplifying the overall network value.</p>
-                      </div>                      
-                    </div>
-                  </div>
-                  <div className="mx-auto max-w-c-1315 px-4 md:px-8 xl:px-0">                    
-                    <div className="grid grid-cols-1 md:grid-cols-1 lg:grid-cols-1 gap-7.5 xl:gap-12.5 mt-10 lg:mt-10 xl:mt-10">
-                      <div className="animate_top border border-white shadow-solid-3 rounded-lg p-7.5 xl:p-12.5 transition-all hover:shadow-solid-4 dark:hover:bg-hoverdark dark:border-strokedark dark:bg-blacksection z-40 bg-white">
-                        <h2 className="relative font-bold text-black dark:text-white text-3xl xl:text-hero mb-6">
-                          Benefits:
-                        </h2>
-                        <div className="mt-7.5 flex items-center gap-5">
-                          <div className="w-15 h-15 rounded-[50%] border border-stroke dark:border-strokedark dark:bg-blacksection flex items-center justify-center">
-                            <div className="text-black dark:text-white font-semibold text-metatitle2">
-                              01
-                            </div>
-                          </div>
-                          <div className="w-3/4">
-                            <h5 className="text-black dark:text-white text-metatitle2 mb-0.5">
-                            Simplified Asset Management
-                            </h5>
-                            <p>VNOC's AI-powered categorization streamlines domain portfolio management, enhancing efficiency.</p>
-                          </div>
-                        </div> 
-                        <div className="mt-7.5 flex items-center gap-5">
-                          <div className="w-15 h-15 rounded-[50%] border border-stroke dark:border-strokedark dark:bg-blacksection flex items-center justify-center">
-                            <div className="text-black dark:text-white font-semibold text-metatitle2">
-                              02
-                            </div>
-                          </div>
-                          <div className="w-3/4">
-                            <h5 className="text-black dark:text-white text-metatitle2 mb-0.5">
-                            Blockchain Advantage
-                            </h5>
-                            <p>VNOC's Blockchain Asset Marketplace facilitates fractional ownership, contributing to increased engagement and asset value.</p>
-                          </div>
-                        </div>
-                        <div className="mt-7.5 flex items-center gap-5">
-                          <div className="w-15 h-15 rounded-[50%] border border-stroke dark:border-strokedark dark:bg-blacksection flex items-center justify-center">
-                            <div className="text-black dark:text-white font-semibold text-metatitle2">
-                              03
-                            </div>
-                          </div>
-                          <div className="w-3/4">
-                            <h5 className="text-black dark:text-white text-metatitle2 mb-0.5">
-                            Higher ROI
-                            </h5>
-                            <p>Domainers leveraging VNOC efficiently monetize and utilize their domains, resulting in a more substantial return on investment.</p>
-                          </div>
-                        </div>                        
-                      </div>
-                    </div>
-                  </div>
-                </section>
-                <div className="flex items-center gap-8 lg:gap-19 mt-12.5 lg:mt-15 xl:mt-20">                  
-                  <div className="animate_right md:w-1/2 hidden lg:block">
-                    <div className="relative 2xl:-mr-7.5">                
-                      <div className=" relative aspect-[700/444] w-full">
-                        <Image
-                          className="dark:hidden shadow-solid-l"
-                          src="/images/hero/uc-image7.png"
-                          alt="Hero"
-                          fill
-                        />
-                        <Image
-                          className="hidden dark:block shadow-solid-l"
-                          src="/images/hero/uc-image7.png"
-                          alt="Hero"
-                          fill
-                        />
-                      </div>
-                    </div>
-                  </div> 
-                  <div className=" md:w-1/2"> 
-                    <h5 className="text-black dark:text-white font-medium uppercase">Use Case 3</h5>           
-                    <h2 className="relative font-bold text-black dark:text-white text-3xl mb-6">Digital Creatives:</h2>
-                    <p>
-                    Unleash Creativity with VNOC: A Haven for Digital Creatives
-                    </p>
-                  </div>
-                </div>
-                <section id="features" className="">
-                  <div className="mx-auto max-w-c-1315 px-4 md:px-8 xl:px-0">                    
-                    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-7.5 xl:gap-12.5 mt-10 lg:mt-10 xl:mt-10">
-                      <div className="animate_top border border-white shadow-solid-3 rounded-lg p-7.5 xl:p-12.5 transition-all hover:shadow-solid-4 dark:hover:bg-hoverdark dark:border-strokedark dark:bg-blacksection z-40 bg-white">
-                        <div className="flex items-center justify-center rounded-[4px] bg-primary w-16 h-16 relative">
-                          <Image src="/images/icon/icon-01.svg" width={36} height={36} alt="title" />
-                        </div>
-                        <h3 className="font-semibold text-xl xl:text-itemtitle text-black dark:text-white mt-7.5 mb-5">Challenge:</h3>
-                        <p>Digital creatives are driven by innovative ideas but often face challenges in bringing them to life. The process of building brands and effectively collaborating with others can be demanding.</p>
-                      </div>
-                      <div className="animate_top border border-white shadow-solid-3 rounded-lg p-7.5 xl:p-12.5 transition-all hover:shadow-solid-4 dark:hover:bg-hoverdark dark:border-strokedark dark:bg-blacksection z-40 bg-white">
-                        <div className="flex items-center justify-center rounded-[4px] bg-primary w-16 h-16 relative">
-                          <Image src="/images/icon/icon-02.svg" width={36} height={36} alt="title" />
-                        </div>
-                        <h3 className="font-semibold text-xl xl:text-itemtitle text-black dark:text-white mt-7.5 mb-5">Solution:</h3>
-                        <p>VNOC empowers digital creatives by offering a Brand Builder with customizable frameworks and a Content Library, streamlining the creation process. The Contrib Network provides a collaborative platform where experts and contributors can join forces to enhance brands.</p>
-                      </div>                      
-                    </div>
-                  </div>
-                  <div className="mx-auto max-w-c-1315 px-4 md:px-8 xl:px-0">                    
-                    <div className="grid grid-cols-1 md:grid-cols-1 lg:grid-cols-1 gap-7.5 xl:gap-12.5 mt-10 lg:mt-10 xl:mt-10">
-                      <div className="animate_top border border-white shadow-solid-3 rounded-lg p-7.5 xl:p-12.5 transition-all hover:shadow-solid-4 dark:hover:bg-hoverdark dark:border-strokedark dark:bg-blacksection z-40 bg-white">
-                        <h2 className="relative font-bold text-black dark:text-white text-3xl xl:text-hero mb-6">
-                          Benefits:
-                        </h2>
-                        <div className="mt-7.5 flex items-center gap-5">
-                          <div className="w-15 h-15 rounded-[50%] border border-stroke dark:border-strokedark dark:bg-blacksection flex items-center justify-center">
-                            <div className="text-black dark:text-white font-semibold text-metatitle2">
-                              01
-                            </div>
-                          </div>
-                          <div className="w-3/4">
-                            <h5 className="text-black dark:text-white text-metatitle2 mb-0.5">
-                            Effortless Brand Creation
-                            </h5>
-                            <p>VNOC's Brand Builder simplifies the journey from ideas to fully-fledged brands with tailored frameworks.</p>
-                          </div>
-                        </div> 
-                        <div className="mt-7.5 flex items-center gap-5">
-                          <div className="w-15 h-15 rounded-[50%] border border-stroke dark:border-strokedark dark:bg-blacksection flex items-center justify-center">
-                            <div className="text-black dark:text-white font-semibold text-metatitle2">
-                              02
-                            </div>
-                          </div>
-                          <div className="w-3/4">
-                            <h5 className="text-black dark:text-white text-metatitle2 mb-0.5">
-                            Collaborative Ecosystem
-                            </h5>
-                            <p>The Contrib Network fosters collaboration among creatives, experts, and contributors, enriching brand quality and reach.</p>
-                          </div>
-                        </div>
-                        <div className="mt-7.5 flex items-center gap-5">
-                          <div className="w-15 h-15 rounded-[50%] border border-stroke dark:border-strokedark dark:bg-blacksection flex items-center justify-center">
-                            <div className="text-black dark:text-white font-semibold text-metatitle2">
-                              03
-                            </div>
-                          </div>
-                          <div className="w-3/4">
-                            <h5 className="text-black dark:text-white text-metatitle2 mb-0.5">
-                            Focus on Creativity
-                            </h5>
-                            <p>VNOC's tools enable digital creatives to dedicate more time to their creative visions by handling technical aspects.</p>
-                          </div>
-                        </div>                        
-                      </div>
-                    </div>
-                  </div>
-                </section>
-              </div>
-            </div>
-          </div>
+    <main>
+      <PageHero
+        title="What You Can Do With VNOC"
+        intro="These are the screens we use every day to run our own portfolio of more than 20,000 domains. In the screenshots, buyer contact details and staff names are blurred."
+      >
+        <div className="flex flex-wrap items-center gap-x-8 gap-y-4">
+          <PrimaryButton href="/apply">Apply for access</PrimaryButton>
+          <TextLink href="#portfolio">See the use cases</TextLink>
         </div>
-      </section>
-    </>
+      </PageHero>
+
+      {useCases.map((uc, i) => (
+        <section
+          key={uc.id}
+          id={uc.id}
+          className={`${i % 2 === 0 ? "bg-white dark:bg-blacksection" : "bg-paper dark:bg-black"} py-16 lg:py-24 scroll-mt-20`}
+        >
+          <div className="mx-auto max-w-c-1390 px-4 md:px-8 2xl:px-0 grid lg:grid-cols-[2fr_3fr] gap-10 lg:gap-16 items-center">
+            <div className={i % 2 === 1 ? "lg:order-2" : ""}>
+              <h2 className="text-ink dark:text-white text-3xl md:text-4xl font-extrabold tracking-[-0.02em] mb-4">
+                {uc.title}
+              </h2>
+              <p className="text-slate dark:text-manatee text-lg leading-relaxed">{uc.text}</p>
+              {uc.link && (
+                <div className="mt-6 text-ink dark:text-white">
+                  <TextLink href={uc.link.href}>{uc.link.label}</TextLink>
+                </div>
+              )}
+            </div>
+            <figure className={i % 2 === 1 ? "lg:order-1" : ""}>
+              <div className="relative aspect-[800/502] overflow-hidden rounded-xl ring-1 ring-rule dark:ring-strokedark shadow-[0_30px_60px_-30px_rgba(15,34,56,0.45)] bg-ink">
+                <Image src={uc.image} alt={uc.alt} fill sizes="(min-width: 1024px) 60vw, 100vw" className="object-cover object-top" />
+              </div>
+            </figure>
+          </div>
+        </section>
+      ))}
+
+      <Section
+        tone="paper"
+        title="Who uses VNOC"
+      >
+        <Rows items={audiences} tone="paper" columns={1} />
+      </Section>
+
+      <ApplyBand />
+    </main>
   );
 }

@@ -1,6 +1,6 @@
 // components/LatestProjects/latestProjectsData.ts
 export const latestProjects = {
-    title: "Our Latest Projects",
+    title: "More from the network",
     subtitle: "VENTURES",
     text: "Discover our latest companies built on cutting-edge technology",
     items: [

@@ -44,7 +44,7 @@ const Header = () => {
               width={87}
               height={30}
             />
-            <span className="text-xs text-waterloo dark:text-manatee mt-1">
+            <span className="text-xs text-slate dark:text-manatee mt-1">
               An eCorp Venture
             </span>
           </a>
@@ -105,12 +105,12 @@ const Header = () => {
                     <>
                       <a
                         onClick={() => setDropdownToggler(!dropdownToggler)}
-                        className="hover:text-primary flex items-center justify-between gap-3 cursor-pointer"
+                        className="hover:text-primaryho dark:hover:text-bggrad1 flex items-center justify-between gap-3 cursor-pointer"
                       >
                         {menuItem.title}
                         <span>
                           <svg
-                            className="fill-waterloo group-hover:fill-primary w-3 h-3 cursor-pointer"
+                            className="fill-waterloo group-hover:fill-primaryho w-3 h-3 cursor-pointer"
                             xmlns="http://www.w3.org/2000/svg"
                             viewBox="0 0 512 512"
                           >
@@ -123,7 +123,7 @@ const Header = () => {
                         className={`dropdown ${dropdownToggler ? "flex" : ""}`}
                       >
                         {menuItem.submenu.map((item, key) => (
-                          <li key={key} className="hover:text-primary">
+                          <li key={key} className="hover:text-primaryho dark:hover:text-bggrad1">
                             <Link href={item.path || "#"}>{item.title}</Link>
                           </li>
                         ))}
@@ -134,8 +134,8 @@ const Header = () => {
                       href={`${menuItem.path}`}
                       className={
                         pathUrl === menuItem.path
-                          ? "hover:text-primary text-primary"
-                          : "hover:text-primary"
+                          ? "hover:text-primaryho dark:hover:text-bggrad1 text-primaryho dark:text-bggrad1 font-bold"
+                          : "hover:text-primaryho dark:hover:text-bggrad1"
                       }
                     >
                       {menuItem.title}
@@ -153,9 +153,9 @@ const Header = () => {
 
             <Link
               href="/apply"
-              className="flex items-center justify-center bg-primary hover:bg-primaryho ease-in-out duration-300 text-white text-regular rounded-full py-2.5 px-7.5"
+              className="flex items-center justify-center bg-ink dark:bg-white text-white dark:text-ink font-bold hover:bg-primaryho dark:hover:bg-bggrad1 ease-in-out duration-300 text-regular rounded-full py-2.5 px-7.5"
             >
-              Apply for Platform Access 🔥
+              Apply for access
             </Link>
           </div>
         </div>
