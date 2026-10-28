@@ -1,17 +1,11 @@
 import Link from "next/link";
 import LiveLedger from "./LiveLedger";
+import HeroGlow from "@/components/Site/HeroGlow";
 
 const Hero = () => {
   return (
     <section className="relative isolate bg-paper dark:bg-black pt-35 md:pt-40 xl:pt-46 pb-20 xl:pb-28 overflow-hidden">
-      {/* Background lighting: soft brand-colored glows behind the headline and the live table. */}
-      <div aria-hidden="true" className="pointer-events-none absolute inset-0 -z-10">
-        <div className="absolute -top-32 -left-24 h-[560px] w-[560px] rounded-full bg-bggrad1/50 dark:bg-bggrad1/30 blur-[110px]" />
-        <div className="absolute top-0 right-[-6%] h-[680px] w-[680px] rounded-full bg-primaryho/40 dark:bg-primaryho/45 blur-[120px]" />
-        <div className="absolute -bottom-40 left-[28%] h-[420px] w-[520px] rounded-full bg-primary/50 dark:bg-primary/25 blur-[110px]" />
-        <div className="absolute -top-24 left-[18%] h-[760px] w-[220px] rotate-[24deg] bg-gradient-to-b from-white/80 via-bggrad1/25 to-transparent dark:from-bggrad1/30 dark:via-primaryho/15 blur-[50px]" />
-        <div className="absolute inset-x-0 top-0 h-px bg-gradient-to-r from-transparent via-bggrad1/70 to-transparent" />
-      </div>
+      <HeroGlow />
       <div className="mx-auto max-w-c-1390 px-4 md:px-8 2xl:px-0">
         <div className="grid lg:grid-cols-2 gap-12 xl:gap-20 items-center">
           <div>

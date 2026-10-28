@@ -7,10 +7,10 @@ const columns = [
     links: [
       { label: "Tools", href: "/#tools" },
       { label: "Build", href: "/build" },
-      { label: "Sell", href: "/sell" },
-      { label: "Lease", href: "/lease" },
-      { label: "Partner", href: "/partner" },
-      { label: "Verticals", href: "/verticals" },
+      { label: "Sell", href: "https://www.domaindirectory.com/sell/" },
+      { label: "Lease", href: "https://www.domaindirectory.com/" },
+      { label: "Partner", href: "https://www.domaindirectory.com/partner/" },
+      { label: "Verticals", href: "https://www.domaindirectory.com/verticals/" },
     ],
   },
   {
@@ -20,7 +20,6 @@ const columns = [
       { label: "Use cases", href: "/use_cases" },
       { label: "Blockchain assets", href: "/blockchain" },
       { label: "Blog", href: "https://about.vnoc.com" },
-      { label: "Knowledge base", href: "https://vnoc.tawk.help" },
     ],
   },
   {
@@ -87,7 +86,7 @@ const Footer = () => {
           <ul className="flex flex-wrap gap-x-6 gap-y-2">
             <li><a href="/privacy" className="hover:text-primaryho dark:hover:text-bggrad1">Privacy Policy</a></li>
             <li><a href="/terms" className="hover:text-primaryho dark:hover:text-bggrad1">Terms of Use</a></li>
-            <li><a href="https://vnoc.tawk.help/" className="hover:text-primaryho dark:hover:text-bggrad1">Support</a></li>
+            <li><a href="/support" className="hover:text-primaryho dark:hover:text-bggrad1">Support</a></li>
           </ul>
           <p>
             &copy; {new Date().getFullYear()} Vnoc.com. All rights reserved.{" "}

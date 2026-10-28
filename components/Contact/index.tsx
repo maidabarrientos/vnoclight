@@ -37,14 +37,6 @@ const Contact = () => {
               </a>
             </dd>
           </div>
-          <div className="border-b border-rule dark:border-strokedark py-5">
-            <dt className="font-bold text-ink dark:text-white">Help center</dt>
-            <dd className="mt-1">
-              <a href="https://vnoc.tawk.help" className="text-slate dark:text-manatee hover:text-primaryho dark:hover:text-bggrad1 underline underline-offset-4">
-                vnoc.tawk.help
-              </a>
-            </dd>
-          </div>
         </dl>
       </div>
     </div>

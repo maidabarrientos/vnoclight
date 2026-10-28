@@ -18,11 +18,7 @@ const FAQ = () => {
             Questions domainers ask
           </h2>
           <p className="text-slate dark:text-manatee text-lg leading-relaxed max-w-md">
-            Don&apos;t see yours? Ask us in the contact form below or browse the{" "}
-            <a href="https://vnoc.tawk.help" className="underline underline-offset-4 hover:text-primaryho dark:hover:text-bggrad1">
-              help center
-            </a>
-            .
+            Don&apos;t see yours? Ask us in the contact form below.
           </p>
         </div>
         <div className="border-t-2 border-ink dark:border-white/40">

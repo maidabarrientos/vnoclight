@@ -4,15 +4,10 @@ import { PageHero, Section, Rows, ApplyBand } from "@/components/Site";
 export const metadata: Metadata = {
   title: "Docs and help - VNOC",
   description:
-    "Where to find help with VNOC: the knowledge base, the Domain Directory form embed docs, the blog and support.",
+    "Where to find help with VNOC: the Domain Directory form embed docs, the blog and support.",
 };
 
 const resources = [
-  {
-    title: "Knowledge base",
-    href: "https://vnoc.tawk.help",
-    text: "Answers to common questions about using VNOC.",
-  },
   {
     title: "Form embed docs",
     domain: "domaindirectory.com",

@@ -5,13 +5,13 @@ import { PageHero, Section } from "@/components/Site";
 
 export const metadata: Metadata = {
   title: "Support - VNOC",
-  description: "Need help with VNOC? Send us a message or browse the help center.",
+  description: "Need help with VNOC? Send us a message and the team will reply.",
 };
 
 const Page = () => {
   return (
     <main>
-      <PageHero title="Support" intro="Need help with VNOC? Send us a message or browse the help center." />
+      <PageHero title="Support" intro="Need help with VNOC? Send us a message and the team will reply." />
       <Section tone="paper">
         <Contact />
       </Section>
